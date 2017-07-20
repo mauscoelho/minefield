@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/mauscoelho/minefield.svg?branch=master)](https://travis-ci.org/mauscoelho/minefield)
+
 
 ## Table of Contents
 
