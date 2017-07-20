@@ -9,8 +9,8 @@ cache:
   - packages/react-scripts/node_modules
 install: true
 script:
+- 'yarn'  
 - 'yarn test'  
-- 'yarn build'  
 env:
   global:
     - USE_YARN=yes  
