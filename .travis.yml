@@ -1,6 +1,5 @@
 language: node_js
-node_js:
-  - 6
+node_js:  
   - 8
 cache:
   directories:
@@ -11,6 +10,11 @@ install: true
 script:
 - 'yarn'  
 - 'yarn test'  
+deploy:
+  provider: script
+  script: 'yarn deploy'
+  on:
+    branch: travis
 env:
   global:
     - USE_YARN=yes  
