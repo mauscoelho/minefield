@@ -10,12 +10,14 @@ install: true
 script:
 - 'yarn'  
 - 'yarn test'  
+- 'yarn build'  
 env:
   global:
     - USE_YARN=yes  
 deploy:
   provider: pages
   skip_cleanup: true
+  local_dir: build
   github_token: $GITHUB_TOKEN 
   on:
     branch: travis
