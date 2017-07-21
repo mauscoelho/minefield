@@ -28,15 +28,12 @@ const Icon = styled.img`
   animation: ${revealAnimation} 1s;
 `;
 
-function Card({ isRevealed, isMine }) {
-  return (
-    <ContainerCardOutside>
-      <Container isRevealed={isRevealed}>
-        {isRevealed && <Icon src={isMine ? mine : diamont} />}
-      </Container>
-    </ContainerCardOutside>
-  );
-}
+const Card = ({ isRevealed, isMine }) =>
+  <ContainerCardOutside>
+    <Container isRevealed={isRevealed}>
+      {isRevealed && <Icon src={isMine ? mine : diamont} />}
+    </Container>
+  </ContainerCardOutside>;
 
 Card.propTypes = {
   isRevealed: propTypes.bool.isRequired,

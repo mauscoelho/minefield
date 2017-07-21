@@ -21,14 +21,11 @@ const Pulse = styled(Container)`
   box-shadow: 0 0 2px 1px ${Colors.backgroundNotRevealed};
 `;
 
-function FetchingCard() {
-  return (
-    <ContainerCardOutside>
-      <Container>
-        <Pulse />
-      </Container>
-    </ContainerCardOutside>
-  );
-}
+const FetchingCard = () =>
+  <ContainerCardOutside>
+    <Container>
+      <Pulse />
+    </Container>
+  </ContainerCardOutside>;
 
 export default FetchingCard;
