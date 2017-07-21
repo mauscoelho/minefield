@@ -11,18 +11,18 @@ const Container = styled.div`
   height: 130px;
 `;
 
-storiesOf(`Card`, module).add(`revealed with diamond and not fetching`, () =>
+storiesOf(`Card`, module).add(`not revealed`, () =>
   <Container>
-    <Card isRevealed isMine={false} isFetching={false} />
+    <Card isRevealed={false} isMine={false} />
   </Container>,
 );
-storiesOf(`Card`, module).add(`revealed with mine and not fetching`, () =>
+storiesOf(`Card`, module).add(`revealed with diamond`, () =>
+  <Container>
+    <Card isRevealed isMine={false} />
+  </Container>,
+);
+storiesOf(`Card`, module).add(`revealed with mine`, () =>
   <Container>
     <Card isRevealed isMine isFetching={false} />
-  </Container>,
-);
-storiesOf(`Card`, module).add(`not revelaled without mine and fetching`, () =>
-  <Container>
-    <Card isRevealed isMine={false} isFetching />
   </Container>,
 );
