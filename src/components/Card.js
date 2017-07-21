@@ -3,7 +3,12 @@ import propTypes from 'prop-types';
 import styled from 'styled-components';
 import diamont from '../images/diamond.png';
 import mine from '../images/mine.png';
-import { ContainerCard, ContainerCardOutside, Colors } from '../styles';
+import {
+  ContainerCard,
+  ContainerCardOutside,
+  Colors,
+  revealAnimation,
+} from '../styles';
 
 const Container = styled(ContainerCard)`
   box-shadow: 0 0 2px 1px
@@ -20,6 +25,7 @@ const Container = styled(ContainerCard)`
 const Icon = styled.img`
   max-width: 100%;
   max-height: 90%;
+  animation: ${revealAnimation} 1s;
 `;
 
 function Card({ isRevealed, isMine }) {

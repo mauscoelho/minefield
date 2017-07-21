@@ -31,7 +31,7 @@ export const pulseAnimation = keyframes`
 100% { transform: scale(0.90); }
 `;
 
-export const fadeInAnimation = keyframes`
-from { transform: scale(0); }
+export const revealAnimation = keyframes`
+from { transform: scale(0.50); }
 to { transform: scale(1); }
 `;
