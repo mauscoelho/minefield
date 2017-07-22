@@ -13,16 +13,26 @@ const Container = styled.div`
 
 storiesOf(`Card`, module).add(`not revealed`, () =>
   <Container>
-    <Card isRevealed={false} isMine={false} />
+    <Card isRevealed={false} isMine={false} halfRevealed={false} />
   </Container>,
 );
 storiesOf(`Card`, module).add(`revealed with diamond`, () =>
   <Container>
-    <Card isRevealed isMine={false} />
+    <Card isRevealed isMine={false} halfRevealed={false} />
   </Container>,
 );
 storiesOf(`Card`, module).add(`revealed with mine`, () =>
   <Container>
     <Card isRevealed isMine isFetching={false} />
+  </Container>,
+);
+storiesOf(`Card`, module).add(`half revealed with diamond`, () =>
+  <Container>
+    <Card isRevealed isMine={false} halfRevealed />
+  </Container>,
+);
+storiesOf(`Card`, module).add(`half revealed with mine`, () =>
+  <Container>
+    <Card isRevealed isMine isFetching={false} halfRevealed />
   </Container>,
 );

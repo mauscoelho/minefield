@@ -23,21 +23,24 @@ const Container = styled(ContainerCard)`
 `;
 
 const Icon = styled.img`
-  max-width: 100%;
-  max-height: 90%;
+  max-width: ${props => (props.halfRevealed ? `50%` : `100%`)};
+  max-height: ${props => (props.halfRevealed ? `40%` : `90%`)};
+  opacity: ${props => (props.halfRevealed ? `0.6` : `1`)};
   animation: ${revealAnimation} 1s;
 `;
 
-const Card = ({ isRevealed, isMine }) =>
+const Card = ({ isRevealed, isMine, halfRevealed }) =>
   <ContainerCardOutside>
     <Container isRevealed={isRevealed}>
-      {isRevealed && <Icon src={isMine ? mine : diamont} />}
+      {isRevealed &&
+        <Icon src={isMine ? mine : diamont} halfRevealed={halfRevealed} />}
     </Container>
   </ContainerCardOutside>;
 
 Card.propTypes = {
   isRevealed: propTypes.bool.isRequired,
   isMine: propTypes.bool.isRequired,
+  halfRevealed: propTypes.bool.isRequired,
 };
 
 export default Card;
