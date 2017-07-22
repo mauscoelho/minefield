@@ -42,7 +42,7 @@ exports[`Storyshots Card fetching 1`] = `
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
-  padding: 6px;
+  padding: 10px;
   border-radius: 10px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
@@ -111,6 +111,208 @@ exports[`Storyshots Card fetching 1`] = `
 </div>
 `;
 
+exports[`Storyshots Card is loss and half revealed with diamond 1`] = `
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding: 10px;
+  border-radius: 10px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  padding: 10px;
+  background-color: #E2E4F0;
+}
+
+.c2 {
+  box-shadow: 0 0 2px 1px    #D2D6E6;
+  background-color: #D2D6E6;
+}
+
+.c5 {
+  max-width: 50%;
+  max-height: 40%;
+  opacity: 0.6;
+  -webkit-animation: dJeCOu 2s;
+  animation: dJeCOu 2s;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  width: 130px;
+  height: 130px;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <div
+      className="c2 c3"
+    >
+      <div
+        className="c4"
+      >
+        <img
+          className="c5"
+          src="diamond.png"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Card is loss and half revealed with mine 1`] = `
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding: 10px;
+  border-radius: 10px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  padding: 10px;
+  background-color: #E2E4F0;
+}
+
+.c2 {
+  box-shadow: 0 0 2px 1px    #D2D6E6;
+  background-color: #D2D6E6;
+}
+
+.c5 {
+  max-width: 50%;
+  max-height: 40%;
+  opacity: 0.6;
+  -webkit-animation: dJeCOu 2s;
+  animation: dJeCOu 2s;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  width: 130px;
+  height: 130px;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <div
+      className="c2 c3"
+    >
+      <div
+        className="c4"
+      >
+        <img
+          className="c5"
+          src="mine.png"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
 exports[`Storyshots Card not revealed 1`] = `
 .c3 {
   display: -webkit-box;
@@ -123,7 +325,7 @@ exports[`Storyshots Card not revealed 1`] = `
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
-  padding: 6px;
+  padding: 10px;
   border-radius: 10px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
@@ -189,7 +391,7 @@ exports[`Storyshots Card revealed with diamond 1`] = `
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
-  padding: 6px;
+  padding: 10px;
   border-radius: 10px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
@@ -218,11 +420,55 @@ exports[`Storyshots Card revealed with diamond 1`] = `
   background-color: #D2D6E6;
 }
 
-.c4 {
+.c5 {
   max-width: 100%;
   max-height: 90%;
-  -webkit-animation: dJeCOu 1s;
-  animation: dJeCOu 1s;
+  opacity: 1;
+  -webkit-animation: dJeCOu 2s;
+  animation: dJeCOu 2s;
+}
+
+.c7 {
+  background-image: url(blink.png);
+  width: 90%;
+  height: 90%;
+  background-size: cover;
+  -webkit-animation: gCbXbQ 1s steps(8);
+  animation: gCbXbQ 1s steps(8);
+  position: absolute;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  width: 14em;
+  height: 14em;
+  -webkit-animation: kKMSIs 0s ease-in 1s forwards;
+  animation: kKMSIs 0s ease-in 1s forwards;
+  position: absolute;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .c0 {
@@ -246,10 +492,21 @@ exports[`Storyshots Card revealed with diamond 1`] = `
     <div
       className="c2 c3"
     >
-      <img
+      <div
         className="c4"
-        src="diamond.png"
-      />
+      >
+        <img
+          className="c5"
+          src="diamond.png"
+        />
+        <div
+          className="c6"
+        >
+          <div
+            className="c7"
+          />
+        </div>
+      </div>
     </div>
   </div>
 </div>
@@ -267,7 +524,7 @@ exports[`Storyshots Card revealed with mine 1`] = `
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
-  padding: 6px;
+  padding: 10px;
   border-radius: 10px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
@@ -296,11 +553,55 @@ exports[`Storyshots Card revealed with mine 1`] = `
   background-color: #D2D6E6;
 }
 
-.c4 {
+.c5 {
   max-width: 100%;
   max-height: 90%;
-  -webkit-animation: dJeCOu 1s;
-  animation: dJeCOu 1s;
+  opacity: 1;
+  -webkit-animation: dJeCOu 2s;
+  animation: dJeCOu 2s;
+}
+
+.c7 {
+  background-image: url(burst.png);
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  -webkit-animation: eRUnmX 1s steps(8);
+  animation: eRUnmX 1s steps(8);
+  position: absolute;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  width: 14em;
+  height: 14em;
+  -webkit-animation: kKMSIs 0s ease-in 1s forwards;
+  animation: kKMSIs 0s ease-in 1s forwards;
+  position: absolute;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .c0 {
@@ -324,11 +625,44 @@ exports[`Storyshots Card revealed with mine 1`] = `
     <div
       className="c2 c3"
     >
-      <img
+      <div
         className="c4"
-        src="mine.png"
-      />
+      >
+        <img
+          className="c5"
+          src="mine.png"
+        />
+        <div
+          className="c6"
+        >
+          <div
+            className="c7"
+          />
+        </div>
+      </div>
     </div>
   </div>
+</div>
+`;
+
+exports[`Storyshots GameBody all items not revealed 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  width: 130px;
+  height: 130px;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className=""
+  />
 </div>
 `;
