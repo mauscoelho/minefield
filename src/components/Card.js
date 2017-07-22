@@ -4,6 +4,7 @@ import styled from 'styled-components';
 import diamont from '../images/diamond.png';
 import mine from '../images/mine.png';
 import blink from '../images/blink.png';
+import burst from '../images/burst.png';
 import {
   ContainerCard,
   ContainerCardOutside,
@@ -11,6 +12,7 @@ import {
   revealAnimation,
   blinkAnimation,
   hideAnimation,
+  burstAnimation,
 } from '../styles';
 
 const Container = styled(ContainerCard)`
@@ -33,22 +35,28 @@ const Icon = styled.img`
 `;
 
 const Blink = styled.div`
-  display: flex;
-  flex: 1;
   background-image: url(${blink});
-  width: 100px;
-  height: 100px;
+  width: 90%;
+  height: 90%;
   background-size: cover;
   animation: ${blinkAnimation} 1s steps(8);
   position: absolute;
 `;
 
-const BlinkContainer = styled.div`
+const Burst = styled.div`
+  background-image: url(${burst});
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  animation: ${burstAnimation} 1s steps(8);
+  position: absolute;
+`;
+
+const HideContainer = styled.div`
   display: flex;
   flex: 1;
-  width: 100px;
-  height: 100px;
-  background-size: cover;
+  width: 14em;
+  height: 14em;
   animation: ${hideAnimation} 0s ease-in 1s forwards;
   position: absolute;
 `;
@@ -64,15 +72,14 @@ const Card = ({ isRevealed, isMine, halfRevealed, isLoss }) =>
   <ContainerCardOutside>
     <Container isRevealed={isRevealed}>
       {isRevealed &&
-        !isLoss &&
         <AnimatedBlink>
           <Icon src={isMine ? mine : diamont} halfRevealed={halfRevealed} />
-          <BlinkContainer>
-            <Blink />
-          </BlinkContainer>
+          {!halfRevealed &&
+            <HideContainer>
+              {!isMine && <Blink />}
+              {isMine && <Burst />}
+            </HideContainer>}
         </AnimatedBlink>}
-      {isLoss &&
-        <Icon src={isMine ? mine : diamont} halfRevealed={halfRevealed} />}
     </Container>
   </ContainerCardOutside>;
 
