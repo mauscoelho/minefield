@@ -7,12 +7,17 @@ import GameBody from './GameBody';
 const Container = styled.div`
   display: flex;
   flex: 1;
-  width: 130px;
-  height: 130px;
+  width: 620px;
 `;
+
+const cards = new Array(25).fill({
+  isRevealed: false,
+  isMine: false,
+  halfRevealed: false,
+});
 
 storiesOf(`GameBody`, module).add(`all items not revealed`, () =>
   <Container>
-    <GameBody />
+    <GameBody cards={cards} />
   </Container>,
 );

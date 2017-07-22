@@ -8,7 +8,7 @@ import {
 } from '../styles';
 
 const Container = styled(ContainerCard)`
-  box-shadow: 0 0 2px 1px
+  box-shadow: 0 0 1px 1px
     ${Colors.backgroundRevealed};
   background-color: ${Colors.backgroundRevealed};
 `;

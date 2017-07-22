@@ -13,26 +13,26 @@ const Container = styled.div`
 
 storiesOf(`Card`, module).add(`not revealed`, () =>
   <Container>
-    <Card isRevealed={false} isMine={false} halfRevealed={false} />
+    <Card card={{ isRevealed: false, isMine: false, halfRevealed: false }} />
   </Container>,
 );
 storiesOf(`Card`, module).add(`revealed with diamond`, () =>
   <Container>
-    <Card isRevealed isMine={false} halfRevealed={false} isLoss={false} />
+    <Card card={{ isRevealed: true, isMine: false, halfRevealed: false }} />
   </Container>,
 );
 storiesOf(`Card`, module).add(`revealed with mine`, () =>
   <Container>
-    <Card isRevealed isMine isFetching={false} isLoss={false} />
+    <Card card={{ isRevealed: true, isMine: true, halfRevealed: false }} />
   </Container>,
 );
 storiesOf(`Card`, module).add(`is loss and half revealed with diamond`, () =>
   <Container>
-    <Card isRevealed isMine={false} halfRevealed isLoss />
+    <Card card={{ isRevealed: true, isMine: false, halfRevealed: true }} />
   </Container>,
 );
 storiesOf(`Card`, module).add(`is loss and half revealed with mine`, () =>
   <Container>
-    <Card isRevealed isMine halfRevealed isLoss />
+    <Card card={{ isRevealed: true, isMine: true, halfRevealed: true }} />
   </Container>,
 );

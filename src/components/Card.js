@@ -15,8 +15,8 @@ import {
   burstAnimation,
 } from '../styles';
 
-const Container = styled(ContainerCard)`
-  box-shadow: 0 0 2px 1px
+const Container = styled(ContainerCard)` 
+  padding: 10px; 
     ${props =>
       props.isRevealed
         ? Colors.backgroundRevealed
@@ -68,33 +68,38 @@ const AnimatedBlink = styled.div`
   justify-content: center;
 `;
 
-const Card = ({ isRevealed, isMine, halfRevealed, isLoss }) =>
+const Card = ({ card }) =>
   <ContainerCardOutside>
-    <Container isRevealed={isRevealed}>
-      {isRevealed &&
+    <Container isRevealed={card.isRevealed}>
+      {card.isRevealed &&
         <AnimatedBlink>
-          <Icon src={isMine ? mine : diamont} halfRevealed={halfRevealed} />
-          {!halfRevealed &&
+          <Icon
+            src={card.isMine ? mine : diamont}
+            halfRevealed={card.halfRevealed}
+          />
+          {!card.halfRevealed &&
             <HideContainer>
-              {!isMine && <Blink />}
-              {isMine && <Burst />}
+              {!card.isMine && <Blink />}
+              {card.isMine && <Burst />}
             </HideContainer>}
         </AnimatedBlink>}
     </Container>
   </ContainerCardOutside>;
 
 Card.propTypes = {
-  isRevealed: propTypes.bool.isRequired,
-  isMine: propTypes.bool.isRequired,
-  halfRevealed: propTypes.bool.isRequired,
-  isLoss: propTypes.bool.isRequired,
+  card: propTypes.shape({
+    isRevealed: propTypes.bool.isRequired,
+    isMine: propTypes.bool.isRequired,
+    halfRevealed: propTypes.bool.isRequired,
+  }),
 };
 
 Card.defaultProps = {
-  isRevealed: false,
-  isMine: false,
-  halfRevealed: false,
-  isLoss: false,
+  card: {
+    isRevealed: false,
+    isMine: false,
+    halfRevealed: false,
+  },
 };
 
 export default Card;
