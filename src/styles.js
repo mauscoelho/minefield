@@ -10,7 +10,7 @@ export const ContainerCard = styled.div`
   display: flex;
   flex: 1;
   flex-direction: column;
-  padding: 6px;
+  padding: 10px;
   border-radius: 10px;
   justify-content: center;
   align-items: center;
@@ -29,6 +29,19 @@ export const pulseAnimation = keyframes`
 50% { transform: scale(1); }
 75% { transform: scale(1.20); }
 100% { transform: scale(0.90); }
+`;
+
+export const hideAnimation = keyframes`
+to {
+  width:0;
+  height:0;
+  overflow:hidden;
+  }
+`;
+
+export const blinkAnimation = keyframes`
+100% { background-position: -3196px; }
+}
 `;
 
 export const revealAnimation = keyframes`

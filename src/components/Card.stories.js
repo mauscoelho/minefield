@@ -18,21 +18,21 @@ storiesOf(`Card`, module).add(`not revealed`, () =>
 );
 storiesOf(`Card`, module).add(`revealed with diamond`, () =>
   <Container>
-    <Card isRevealed isMine={false} halfRevealed={false} />
+    <Card isRevealed isMine={false} halfRevealed={false} isLoss={false} />
   </Container>,
 );
 storiesOf(`Card`, module).add(`revealed with mine`, () =>
   <Container>
-    <Card isRevealed isMine isFetching={false} />
+    <Card isRevealed isMine isFetching={false} isLoss={false} />
   </Container>,
 );
-storiesOf(`Card`, module).add(`half revealed with diamond`, () =>
+storiesOf(`Card`, module).add(`is loss and half revealed with diamond`, () =>
   <Container>
-    <Card isRevealed isMine={false} halfRevealed />
+    <Card isRevealed isMine={false} halfRevealed isLoss />
   </Container>,
 );
-storiesOf(`Card`, module).add(`half revealed with mine`, () =>
+storiesOf(`Card`, module).add(`is loss and half revealed with mine`, () =>
   <Container>
-    <Card isRevealed isMine isFetching={false} halfRevealed />
+    <Card isRevealed isMine halfRevealed isLoss />
   </Container>,
 );
