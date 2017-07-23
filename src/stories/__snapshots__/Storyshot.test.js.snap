@@ -113,8 +113,9 @@ exports[`Storyshots Card is loss and half revealed with diamond 1`] = `
   <div
     className="c1"
   >
-    <div
+    <span
       className="c2 c3"
+      onClick={[Function]}
     >
       <div
         className="c4"
@@ -124,7 +125,7 @@ exports[`Storyshots Card is loss and half revealed with diamond 1`] = `
           src="diamond.png"
         />
       </div>
-    </div>
+    </span>
   </div>
 </div>
 `;
@@ -212,8 +213,9 @@ exports[`Storyshots Card is loss and half revealed with mine 1`] = `
   <div
     className="c1"
   >
-    <div
+    <span
       className="c2 c3"
+      onClick={[Function]}
     >
       <div
         className="c4"
@@ -223,7 +225,7 @@ exports[`Storyshots Card is loss and half revealed with mine 1`] = `
           src="mine.png"
         />
       </div>
-    </div>
+    </span>
   </div>
 </div>
 `;
@@ -285,8 +287,9 @@ exports[`Storyshots Card not revealed 1`] = `
   <div
     className="c1"
   >
-    <div
+    <span
       className="c2 c3"
+      onClick={[Function]}
     />
   </div>
 </div>
@@ -400,8 +403,9 @@ exports[`Storyshots Card revealed with diamond 1`] = `
   <div
     className="c1"
   >
-    <div
+    <span
       className="c2 c3"
+      onClick={[Function]}
     >
       <div
         className="c4"
@@ -418,7 +422,7 @@ exports[`Storyshots Card revealed with diamond 1`] = `
           />
         </div>
       </div>
-    </div>
+    </span>
   </div>
 </div>
 `;
@@ -531,8 +535,9 @@ exports[`Storyshots Card revealed with mine 1`] = `
   <div
     className="c1"
   >
-    <div
+    <span
       className="c2 c3"
+      onClick={[Function]}
     >
       <div
         className="c4"
@@ -549,7 +554,7 @@ exports[`Storyshots Card revealed with mine 1`] = `
           />
         </div>
       </div>
-    </div>
+    </span>
   </div>
 </div>
 `;
@@ -662,8 +667,9 @@ exports[`Storyshots CardContainer fetching false with custom props revealed with
   <div
     className="c1"
   >
-    <div
+    <span
       className="c2 c3"
+      onClick={[Function]}
     >
       <div
         className="c4"
@@ -680,7 +686,7 @@ exports[`Storyshots CardContainer fetching false with custom props revealed with
           />
         </div>
       </div>
-    </div>
+    </span>
   </div>
 </div>
 `;
@@ -793,8 +799,9 @@ exports[`Storyshots CardContainer fetching false with custom props revealed with
   <div
     className="c1"
   >
-    <div
+    <span
       className="c2 c3"
+      onClick={[Function]}
     >
       <div
         className="c4"
@@ -811,7 +818,7 @@ exports[`Storyshots CardContainer fetching false with custom props revealed with
           />
         </div>
       </div>
-    </div>
+    </span>
   </div>
 </div>
 `;
@@ -873,8 +880,9 @@ exports[`Storyshots CardContainer fetching false with default props 1`] = `
   <div
     className="c1"
   >
-    <div
+    <span
       className="c2 c3"
+      onClick={[Function]}
     />
   </div>
 </div>
@@ -915,19 +923,8 @@ exports[`Storyshots CardContainer fetching true 1`] = `
 }
 
 .c2 {
-  box-shadow: 0 0 1px 1px    #D2D6E6;
-  background-color: #D2D6E6;
-}
-
-.c4 {
+  padding: 18px;
   background-color: #FFFFFF;
-  -webkit-animation: deBNxY 2s infinite;
-  animation: deBNxY 2s infinite;
-  -webkit-align-self: stretch;
-  -ms-flex-item-align: stretch;
-  align-self: stretch;
-  box-shadow: 0 0 2px 1px #FFFFFF;
-  box-shadow: 0 0 2px 1px #FFFFFF;
 }
 
 .c0 {
@@ -948,13 +945,10 @@ exports[`Storyshots CardContainer fetching true 1`] = `
   <div
     className="c1"
   >
-    <div
+    <span
       className="c2 c3"
-    >
-      <div
-        className="c4 c2 c3"
-      />
-    </div>
+      onClick={[Function]}
+    />
   </div>
 </div>
 `;
@@ -1027,18 +1021,18 @@ exports[`Storyshots FetchingCard fetching 1`] = `
   <div
     className="c1"
   >
-    <div
+    <span
       className="c2 c3"
     >
-      <div
+      <span
         className="c4 c2 c3"
       />
-    </div>
+    </span>
   </div>
 </div>
 `;
 
-exports[`Storyshots GameBody all items not revealed 1`] = `
+exports[`Storyshots GameBody all items not revealed (clickable) 1`] = `
 .c4 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1116,450 +1110,201 @@ exports[`Storyshots GameBody all items not revealed 1`] = `
     <div
       className="c2"
     >
-      <div
+      <span
         className="c3 c4"
+        onClick={[Function]}
       />
     </div>
     <div
       className="c2"
     >
-      <div
+      <span
         className="c3 c4"
+        onClick={[Function]}
       />
     </div>
     <div
       className="c2"
     >
-      <div
+      <span
         className="c3 c4"
+        onClick={[Function]}
       />
     </div>
     <div
       className="c2"
     >
-      <div
+      <span
         className="c3 c4"
+        onClick={[Function]}
       />
     </div>
     <div
       className="c2"
     >
-      <div
+      <span
         className="c3 c4"
+        onClick={[Function]}
       />
     </div>
     <div
       className="c2"
     >
-      <div
+      <span
         className="c3 c4"
+        onClick={[Function]}
       />
     </div>
     <div
       className="c2"
     >
-      <div
+      <span
         className="c3 c4"
+        onClick={[Function]}
       />
     </div>
     <div
       className="c2"
     >
-      <div
+      <span
         className="c3 c4"
+        onClick={[Function]}
       />
     </div>
     <div
       className="c2"
     >
-      <div
+      <span
         className="c3 c4"
+        onClick={[Function]}
       />
     </div>
     <div
       className="c2"
     >
-      <div
+      <span
         className="c3 c4"
+        onClick={[Function]}
       />
     </div>
     <div
       className="c2"
     >
-      <div
+      <span
         className="c3 c4"
+        onClick={[Function]}
       />
     </div>
     <div
       className="c2"
     >
-      <div
+      <span
         className="c3 c4"
+        onClick={[Function]}
       />
     </div>
     <div
       className="c2"
     >
-      <div
+      <span
         className="c3 c4"
+        onClick={[Function]}
       />
     </div>
     <div
       className="c2"
     >
-      <div
+      <span
         className="c3 c4"
+        onClick={[Function]}
       />
     </div>
     <div
       className="c2"
     >
-      <div
+      <span
         className="c3 c4"
+        onClick={[Function]}
       />
     </div>
     <div
       className="c2"
     >
-      <div
+      <span
         className="c3 c4"
+        onClick={[Function]}
       />
     </div>
     <div
       className="c2"
     >
-      <div
+      <span
         className="c3 c4"
+        onClick={[Function]}
       />
     </div>
     <div
       className="c2"
     >
-      <div
+      <span
         className="c3 c4"
+        onClick={[Function]}
       />
     </div>
     <div
       className="c2"
     >
-      <div
+      <span
         className="c3 c4"
+        onClick={[Function]}
       />
     </div>
     <div
       className="c2"
     >
-      <div
+      <span
         className="c3 c4"
+        onClick={[Function]}
       />
     </div>
     <div
       className="c2"
     >
-      <div
+      <span
         className="c3 c4"
+        onClick={[Function]}
       />
     </div>
     <div
       className="c2"
     >
-      <div
+      <span
         className="c3 c4"
+        onClick={[Function]}
       />
     </div>
     <div
       className="c2"
     >
-      <div
+      <span
         className="c3 c4"
+        onClick={[Function]}
       />
     </div>
     <div
       className="c2"
     >
-      <div
+      <span
         className="c3 c4"
+        onClick={[Function]}
       />
     </div>
     <div
       className="c2"
     >
-      <div
+      <span
         className="c3 c4"
-      />
-    </div>
-  </div>
-</div>
-`;
-
-exports[`Storyshots GameBody all items not revealed and one fetching 1`] = `
-.c4 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  border-radius: 10px;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-.c2 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  width: 100px;
-  height: 100px;
-  padding: 10px;
-  background-color: #E2E4F0;
-}
-
-.c6 {
-  padding: 18px;
-  background-color: #FFFFFF;
-}
-
-.c3 {
-  box-shadow: 0 0 1px 1px    #D2D6E6;
-  background-color: #D2D6E6;
-}
-
-.c5 {
-  background-color: #FFFFFF;
-  -webkit-animation: deBNxY 2s infinite;
-  animation: deBNxY 2s infinite;
-  -webkit-align-self: stretch;
-  -ms-flex-item-align: stretch;
-  align-self: stretch;
-  box-shadow: 0 0 2px 1px #FFFFFF;
-  box-shadow: 0 0 2px 1px #FFFFFF;
-}
-
-.c1 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
-  padding: 1em 0;
-  -webkit-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  -webkit-box-pack: space-between;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: space-between;
-  justify-content: space-between;
-  background-color: #E2E4F0;
-}
-
-.c0 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
-  width: 620px;
-}
-
-<div
-  className="c0"
->
-  <div
-    className="c1"
-  >
-    <div
-      className="c2"
-    >
-      <div
-        className="c3 c4"
-      >
-        <div
-          className="c5 c3 c4"
-        />
-      </div>
-    </div>
-    <div
-      className="c2"
-    >
-      <div
-        className="c6 c4"
-      />
-    </div>
-    <div
-      className="c2"
-    >
-      <div
-        className="c6 c4"
-      />
-    </div>
-    <div
-      className="c2"
-    >
-      <div
-        className="c6 c4"
-      />
-    </div>
-    <div
-      className="c2"
-    >
-      <div
-        className="c6 c4"
-      />
-    </div>
-    <div
-      className="c2"
-    >
-      <div
-        className="c6 c4"
-      />
-    </div>
-    <div
-      className="c2"
-    >
-      <div
-        className="c6 c4"
-      />
-    </div>
-    <div
-      className="c2"
-    >
-      <div
-        className="c6 c4"
-      />
-    </div>
-    <div
-      className="c2"
-    >
-      <div
-        className="c6 c4"
-      />
-    </div>
-    <div
-      className="c2"
-    >
-      <div
-        className="c6 c4"
-      />
-    </div>
-    <div
-      className="c2"
-    >
-      <div
-        className="c6 c4"
-      />
-    </div>
-    <div
-      className="c2"
-    >
-      <div
-        className="c6 c4"
-      />
-    </div>
-    <div
-      className="c2"
-    >
-      <div
-        className="c6 c4"
-      />
-    </div>
-    <div
-      className="c2"
-    >
-      <div
-        className="c6 c4"
-      />
-    </div>
-    <div
-      className="c2"
-    >
-      <div
-        className="c6 c4"
-      />
-    </div>
-    <div
-      className="c2"
-    >
-      <div
-        className="c6 c4"
-      />
-    </div>
-    <div
-      className="c2"
-    >
-      <div
-        className="c6 c4"
-      />
-    </div>
-    <div
-      className="c2"
-    >
-      <div
-        className="c6 c4"
-      />
-    </div>
-    <div
-      className="c2"
-    >
-      <div
-        className="c6 c4"
-      />
-    </div>
-    <div
-      className="c2"
-    >
-      <div
-        className="c6 c4"
-      />
-    </div>
-    <div
-      className="c2"
-    >
-      <div
-        className="c6 c4"
-      />
-    </div>
-    <div
-      className="c2"
-    >
-      <div
-        className="c6 c4"
-      />
-    </div>
-    <div
-      className="c2"
-    >
-      <div
-        className="c6 c4"
-      />
-    </div>
-    <div
-      className="c2"
-    >
-      <div
-        className="c6 c4"
-      />
-    </div>
-    <div
-      className="c2"
-    >
-      <div
-        className="c6 c4"
+        onClick={[Function]}
       />
     </div>
   </div>
@@ -1703,8 +1448,9 @@ exports[`Storyshots GameBody is lost with two mines 1`] = `
     <div
       className="c2"
     >
-      <div
+      <span
         className="c3 c4"
+        onClick={[Function]}
       >
         <div
           className="c5"
@@ -1721,13 +1467,14 @@ exports[`Storyshots GameBody is lost with two mines 1`] = `
             />
           </div>
         </div>
-      </div>
+      </span>
     </div>
     <div
       className="c2"
     >
-      <div
+      <span
         className="c3 c4"
+        onClick={[Function]}
       >
         <div
           className="c5"
@@ -1737,13 +1484,14 @@ exports[`Storyshots GameBody is lost with two mines 1`] = `
             src="mine.png"
           />
         </div>
-      </div>
+      </span>
     </div>
     <div
       className="c2"
     >
-      <div
+      <span
         className="c3 c4"
+        onClick={[Function]}
       >
         <div
           className="c5"
@@ -1753,13 +1501,14 @@ exports[`Storyshots GameBody is lost with two mines 1`] = `
             src="diamond.png"
           />
         </div>
-      </div>
+      </span>
     </div>
     <div
       className="c2"
     >
-      <div
+      <span
         className="c3 c4"
+        onClick={[Function]}
       >
         <div
           className="c5"
@@ -1769,13 +1518,14 @@ exports[`Storyshots GameBody is lost with two mines 1`] = `
             src="diamond.png"
           />
         </div>
-      </div>
+      </span>
     </div>
     <div
       className="c2"
     >
-      <div
+      <span
         className="c3 c4"
+        onClick={[Function]}
       >
         <div
           className="c5"
@@ -1785,13 +1535,14 @@ exports[`Storyshots GameBody is lost with two mines 1`] = `
             src="diamond.png"
           />
         </div>
-      </div>
+      </span>
     </div>
     <div
       className="c2"
     >
-      <div
+      <span
         className="c3 c4"
+        onClick={[Function]}
       >
         <div
           className="c5"
@@ -1801,13 +1552,14 @@ exports[`Storyshots GameBody is lost with two mines 1`] = `
             src="diamond.png"
           />
         </div>
-      </div>
+      </span>
     </div>
     <div
       className="c2"
     >
-      <div
+      <span
         className="c3 c4"
+        onClick={[Function]}
       >
         <div
           className="c5"
@@ -1817,13 +1569,14 @@ exports[`Storyshots GameBody is lost with two mines 1`] = `
             src="diamond.png"
           />
         </div>
-      </div>
+      </span>
     </div>
     <div
       className="c2"
     >
-      <div
+      <span
         className="c3 c4"
+        onClick={[Function]}
       >
         <div
           className="c5"
@@ -1833,13 +1586,14 @@ exports[`Storyshots GameBody is lost with two mines 1`] = `
             src="diamond.png"
           />
         </div>
-      </div>
+      </span>
     </div>
     <div
       className="c2"
     >
-      <div
+      <span
         className="c3 c4"
+        onClick={[Function]}
       >
         <div
           className="c5"
@@ -1849,13 +1603,14 @@ exports[`Storyshots GameBody is lost with two mines 1`] = `
             src="diamond.png"
           />
         </div>
-      </div>
+      </span>
     </div>
     <div
       className="c2"
     >
-      <div
+      <span
         className="c3 c4"
+        onClick={[Function]}
       >
         <div
           className="c5"
@@ -1865,13 +1620,14 @@ exports[`Storyshots GameBody is lost with two mines 1`] = `
             src="diamond.png"
           />
         </div>
-      </div>
+      </span>
     </div>
     <div
       className="c2"
     >
-      <div
+      <span
         className="c3 c4"
+        onClick={[Function]}
       >
         <div
           className="c5"
@@ -1881,13 +1637,14 @@ exports[`Storyshots GameBody is lost with two mines 1`] = `
             src="diamond.png"
           />
         </div>
-      </div>
+      </span>
     </div>
     <div
       className="c2"
     >
-      <div
+      <span
         className="c3 c4"
+        onClick={[Function]}
       >
         <div
           className="c5"
@@ -1897,13 +1654,14 @@ exports[`Storyshots GameBody is lost with two mines 1`] = `
             src="diamond.png"
           />
         </div>
-      </div>
+      </span>
     </div>
     <div
       className="c2"
     >
-      <div
+      <span
         className="c3 c4"
+        onClick={[Function]}
       >
         <div
           className="c5"
@@ -1913,13 +1671,14 @@ exports[`Storyshots GameBody is lost with two mines 1`] = `
             src="diamond.png"
           />
         </div>
-      </div>
+      </span>
     </div>
     <div
       className="c2"
     >
-      <div
+      <span
         className="c3 c4"
+        onClick={[Function]}
       >
         <div
           className="c5"
@@ -1929,13 +1688,14 @@ exports[`Storyshots GameBody is lost with two mines 1`] = `
             src="diamond.png"
           />
         </div>
-      </div>
+      </span>
     </div>
     <div
       className="c2"
     >
-      <div
+      <span
         className="c3 c4"
+        onClick={[Function]}
       >
         <div
           className="c5"
@@ -1945,13 +1705,14 @@ exports[`Storyshots GameBody is lost with two mines 1`] = `
             src="diamond.png"
           />
         </div>
-      </div>
+      </span>
     </div>
     <div
       className="c2"
     >
-      <div
+      <span
         className="c3 c4"
+        onClick={[Function]}
       >
         <div
           className="c5"
@@ -1961,13 +1722,14 @@ exports[`Storyshots GameBody is lost with two mines 1`] = `
             src="diamond.png"
           />
         </div>
-      </div>
+      </span>
     </div>
     <div
       className="c2"
     >
-      <div
+      <span
         className="c3 c4"
+        onClick={[Function]}
       >
         <div
           className="c5"
@@ -1977,13 +1739,14 @@ exports[`Storyshots GameBody is lost with two mines 1`] = `
             src="diamond.png"
           />
         </div>
-      </div>
+      </span>
     </div>
     <div
       className="c2"
     >
-      <div
+      <span
         className="c3 c4"
+        onClick={[Function]}
       >
         <div
           className="c5"
@@ -1993,13 +1756,14 @@ exports[`Storyshots GameBody is lost with two mines 1`] = `
             src="diamond.png"
           />
         </div>
-      </div>
+      </span>
     </div>
     <div
       className="c2"
     >
-      <div
+      <span
         className="c3 c4"
+        onClick={[Function]}
       >
         <div
           className="c5"
@@ -2009,13 +1773,14 @@ exports[`Storyshots GameBody is lost with two mines 1`] = `
             src="diamond.png"
           />
         </div>
-      </div>
+      </span>
     </div>
     <div
       className="c2"
     >
-      <div
+      <span
         className="c3 c4"
+        onClick={[Function]}
       >
         <div
           className="c5"
@@ -2025,13 +1790,14 @@ exports[`Storyshots GameBody is lost with two mines 1`] = `
             src="diamond.png"
           />
         </div>
-      </div>
+      </span>
     </div>
     <div
       className="c2"
     >
-      <div
+      <span
         className="c3 c4"
+        onClick={[Function]}
       >
         <div
           className="c5"
@@ -2041,13 +1807,14 @@ exports[`Storyshots GameBody is lost with two mines 1`] = `
             src="diamond.png"
           />
         </div>
-      </div>
+      </span>
     </div>
     <div
       className="c2"
     >
-      <div
+      <span
         className="c3 c4"
+        onClick={[Function]}
       >
         <div
           className="c5"
@@ -2057,13 +1824,14 @@ exports[`Storyshots GameBody is lost with two mines 1`] = `
             src="diamond.png"
           />
         </div>
-      </div>
+      </span>
     </div>
     <div
       className="c2"
     >
-      <div
+      <span
         className="c3 c4"
+        onClick={[Function]}
       >
         <div
           className="c5"
@@ -2073,13 +1841,14 @@ exports[`Storyshots GameBody is lost with two mines 1`] = `
             src="diamond.png"
           />
         </div>
-      </div>
+      </span>
     </div>
     <div
       className="c2"
     >
-      <div
+      <span
         className="c3 c4"
+        onClick={[Function]}
       >
         <div
           className="c5"
@@ -2089,13 +1858,14 @@ exports[`Storyshots GameBody is lost with two mines 1`] = `
             src="diamond.png"
           />
         </div>
-      </div>
+      </span>
     </div>
     <div
       className="c2"
     >
-      <div
+      <span
         className="c3 c4"
+        onClick={[Function]}
       >
         <div
           className="c5"
@@ -2105,7 +1875,7 @@ exports[`Storyshots GameBody is lost with two mines 1`] = `
             src="diamond.png"
           />
         </div>
-      </div>
+      </span>
     </div>
   </div>
 </div>
@@ -2248,8 +2018,9 @@ exports[`Storyshots GameBody is win with two mines 1`] = `
     <div
       className="c2"
     >
-      <div
+      <span
         className="c3 c4"
+        onClick={[Function]}
       >
         <div
           className="c5"
@@ -2266,13 +2037,14 @@ exports[`Storyshots GameBody is win with two mines 1`] = `
             />
           </div>
         </div>
-      </div>
+      </span>
     </div>
     <div
       className="c2"
     >
-      <div
+      <span
         className="c3 c4"
+        onClick={[Function]}
       >
         <div
           className="c5"
@@ -2282,13 +2054,14 @@ exports[`Storyshots GameBody is win with two mines 1`] = `
             src="mine.png"
           />
         </div>
-      </div>
+      </span>
     </div>
     <div
       className="c2"
     >
-      <div
+      <span
         className="c3 c4"
+        onClick={[Function]}
       >
         <div
           className="c5"
@@ -2298,13 +2071,14 @@ exports[`Storyshots GameBody is win with two mines 1`] = `
             src="mine.png"
           />
         </div>
-      </div>
+      </span>
     </div>
     <div
       className="c2"
     >
-      <div
+      <span
         className="c3 c4"
+        onClick={[Function]}
       >
         <div
           className="c5"
@@ -2314,13 +2088,14 @@ exports[`Storyshots GameBody is win with two mines 1`] = `
             src="diamond.png"
           />
         </div>
-      </div>
+      </span>
     </div>
     <div
       className="c2"
     >
-      <div
+      <span
         className="c3 c4"
+        onClick={[Function]}
       >
         <div
           className="c5"
@@ -2330,13 +2105,14 @@ exports[`Storyshots GameBody is win with two mines 1`] = `
             src="diamond.png"
           />
         </div>
-      </div>
+      </span>
     </div>
     <div
       className="c2"
     >
-      <div
+      <span
         className="c3 c4"
+        onClick={[Function]}
       >
         <div
           className="c5"
@@ -2346,13 +2122,14 @@ exports[`Storyshots GameBody is win with two mines 1`] = `
             src="diamond.png"
           />
         </div>
-      </div>
+      </span>
     </div>
     <div
       className="c2"
     >
-      <div
+      <span
         className="c3 c4"
+        onClick={[Function]}
       >
         <div
           className="c5"
@@ -2362,13 +2139,14 @@ exports[`Storyshots GameBody is win with two mines 1`] = `
             src="diamond.png"
           />
         </div>
-      </div>
+      </span>
     </div>
     <div
       className="c2"
     >
-      <div
+      <span
         className="c3 c4"
+        onClick={[Function]}
       >
         <div
           className="c5"
@@ -2378,13 +2156,14 @@ exports[`Storyshots GameBody is win with two mines 1`] = `
             src="diamond.png"
           />
         </div>
-      </div>
+      </span>
     </div>
     <div
       className="c2"
     >
-      <div
+      <span
         className="c3 c4"
+        onClick={[Function]}
       >
         <div
           className="c5"
@@ -2394,13 +2173,14 @@ exports[`Storyshots GameBody is win with two mines 1`] = `
             src="diamond.png"
           />
         </div>
-      </div>
+      </span>
     </div>
     <div
       className="c2"
     >
-      <div
+      <span
         className="c3 c4"
+        onClick={[Function]}
       >
         <div
           className="c5"
@@ -2410,13 +2190,14 @@ exports[`Storyshots GameBody is win with two mines 1`] = `
             src="diamond.png"
           />
         </div>
-      </div>
+      </span>
     </div>
     <div
       className="c2"
     >
-      <div
+      <span
         className="c3 c4"
+        onClick={[Function]}
       >
         <div
           className="c5"
@@ -2426,13 +2207,14 @@ exports[`Storyshots GameBody is win with two mines 1`] = `
             src="diamond.png"
           />
         </div>
-      </div>
+      </span>
     </div>
     <div
       className="c2"
     >
-      <div
+      <span
         className="c3 c4"
+        onClick={[Function]}
       >
         <div
           className="c5"
@@ -2442,13 +2224,14 @@ exports[`Storyshots GameBody is win with two mines 1`] = `
             src="diamond.png"
           />
         </div>
-      </div>
+      </span>
     </div>
     <div
       className="c2"
     >
-      <div
+      <span
         className="c3 c4"
+        onClick={[Function]}
       >
         <div
           className="c5"
@@ -2458,13 +2241,14 @@ exports[`Storyshots GameBody is win with two mines 1`] = `
             src="diamond.png"
           />
         </div>
-      </div>
+      </span>
     </div>
     <div
       className="c2"
     >
-      <div
+      <span
         className="c3 c4"
+        onClick={[Function]}
       >
         <div
           className="c5"
@@ -2474,13 +2258,14 @@ exports[`Storyshots GameBody is win with two mines 1`] = `
             src="diamond.png"
           />
         </div>
-      </div>
+      </span>
     </div>
     <div
       className="c2"
     >
-      <div
+      <span
         className="c3 c4"
+        onClick={[Function]}
       >
         <div
           className="c5"
@@ -2490,13 +2275,14 @@ exports[`Storyshots GameBody is win with two mines 1`] = `
             src="diamond.png"
           />
         </div>
-      </div>
+      </span>
     </div>
     <div
       className="c2"
     >
-      <div
+      <span
         className="c3 c4"
+        onClick={[Function]}
       >
         <div
           className="c5"
@@ -2506,13 +2292,14 @@ exports[`Storyshots GameBody is win with two mines 1`] = `
             src="diamond.png"
           />
         </div>
-      </div>
+      </span>
     </div>
     <div
       className="c2"
     >
-      <div
+      <span
         className="c3 c4"
+        onClick={[Function]}
       >
         <div
           className="c5"
@@ -2522,13 +2309,14 @@ exports[`Storyshots GameBody is win with two mines 1`] = `
             src="diamond.png"
           />
         </div>
-      </div>
+      </span>
     </div>
     <div
       className="c2"
     >
-      <div
+      <span
         className="c3 c4"
+        onClick={[Function]}
       >
         <div
           className="c5"
@@ -2538,13 +2326,14 @@ exports[`Storyshots GameBody is win with two mines 1`] = `
             src="diamond.png"
           />
         </div>
-      </div>
+      </span>
     </div>
     <div
       className="c2"
     >
-      <div
+      <span
         className="c3 c4"
+        onClick={[Function]}
       >
         <div
           className="c5"
@@ -2554,13 +2343,14 @@ exports[`Storyshots GameBody is win with two mines 1`] = `
             src="diamond.png"
           />
         </div>
-      </div>
+      </span>
     </div>
     <div
       className="c2"
     >
-      <div
+      <span
         className="c3 c4"
+        onClick={[Function]}
       >
         <div
           className="c5"
@@ -2570,13 +2360,14 @@ exports[`Storyshots GameBody is win with two mines 1`] = `
             src="diamond.png"
           />
         </div>
-      </div>
+      </span>
     </div>
     <div
       className="c2"
     >
-      <div
+      <span
         className="c3 c4"
+        onClick={[Function]}
       >
         <div
           className="c5"
@@ -2586,13 +2377,14 @@ exports[`Storyshots GameBody is win with two mines 1`] = `
             src="diamond.png"
           />
         </div>
-      </div>
+      </span>
     </div>
     <div
       className="c2"
     >
-      <div
+      <span
         className="c3 c4"
+        onClick={[Function]}
       >
         <div
           className="c5"
@@ -2602,13 +2394,14 @@ exports[`Storyshots GameBody is win with two mines 1`] = `
             src="diamond.png"
           />
         </div>
-      </div>
+      </span>
     </div>
     <div
       className="c2"
     >
-      <div
+      <span
         className="c3 c4"
+        onClick={[Function]}
       >
         <div
           className="c5"
@@ -2618,13 +2411,14 @@ exports[`Storyshots GameBody is win with two mines 1`] = `
             src="diamond.png"
           />
         </div>
-      </div>
+      </span>
     </div>
     <div
       className="c2"
     >
-      <div
+      <span
         className="c3 c4"
+        onClick={[Function]}
       >
         <div
           className="c5"
@@ -2634,13 +2428,14 @@ exports[`Storyshots GameBody is win with two mines 1`] = `
             src="diamond.png"
           />
         </div>
-      </div>
+      </span>
     </div>
     <div
       className="c2"
     >
-      <div
+      <span
         className="c3 c4"
+        onClick={[Function]}
       >
         <div
           className="c5"
@@ -2650,7 +2445,7 @@ exports[`Storyshots GameBody is win with two mines 1`] = `
             src="diamond.png"
           />
         </div>
-      </div>
+      </span>
     </div>
   </div>
 </div>

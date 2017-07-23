@@ -6,7 +6,7 @@ export const Colors = {
   background: `#E2E4F0`,
 };
 
-export const ContainerCard = styled.div`
+export const ContainerCard = styled.span`
   display: flex;
   flex: 1;
   flex-direction: column;

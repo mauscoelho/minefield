@@ -3,14 +3,14 @@
   "homepage": "http://mauscoelho.github.io/minefield",
   "version": "0.1.0",
   "private": true,
-  "dependencies": {    
+  "dependencies": {
     "prop-types": "^15.5.10",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "recompose": "^0.24.0",
     "styled-components": "^2.1.1"
   },
-  "devDependencies": {
+  "devDependencies": {    
     "@storybook/addon-storyshots": "^3.1.9",
     "@storybook/react": "^3.1.9",
     "eslint-config-airbnb": "^15.0.2",
@@ -19,11 +19,11 @@
     "eslint-plugin-prettier": "^2.1.2",
     "eslint-plugin-react": "^7.1.0",
     "gh-pages": "^1.0.0",
+    "husky": "^0.14.3",
     "jest-styled-components": "^4.0.3",
     "prettier": "^1.5.3",
     "react-scripts": "1.0.10",
-    "react-test-renderer": "^15.6.1",
-    "husky": "^0.14.3"
+    "react-test-renderer": "^15.6.1"
   },
   "scripts": {
     "start": "react-scripts start",

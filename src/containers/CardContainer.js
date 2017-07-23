@@ -1,18 +1,28 @@
-import { compose, branch, defaultProps, renderComponent } from 'recompose';
+import {
+  compose,
+  branch,
+  renderComponent,
+  withHandlers,
+  withState,
+  defaultProps,
+} from 'recompose';
 import Card from '../components/Card';
 import FetchingCard from '../components/FetchingCard';
 
+const onClickCard = ({ setFetching, card }) => () => {
+  console.log(card);
+  if (!card.isRevealed) {
+    setFetching(true);
+  }
+};
+
 const enhance = compose(
-  defaultProps({
-    card: {
-      isFetching: false,
-      isRevealed: false,
-      isMine: false,
-      halfRevealed: false,
-    },
+  withState(`isFetching`, `setFetching`, false),
+  withHandlers({
+    onClick: onClickCard,
   }),
   branch(
-    props => !props.card.isFetching,
+    props => !props.isFetching,
     renderComponent(Card),
     renderComponent(FetchingCard),
   ),

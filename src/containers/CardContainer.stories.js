@@ -13,7 +13,9 @@ const Container = styled.div`
 
 storiesOf(`CardContainer`, module).add(`fetching true`, () =>
   <Container>
-    <CardContainer card={{ isFetching: true }} />
+    <CardContainer
+      card={{ isRevealed: false, isMine: false, halfRevealed: false }}
+    />
   </Container>,
 );
 storiesOf(
@@ -31,7 +33,6 @@ storiesOf(
   <Container>
     <CardContainer
       card={{
-        isFetching: false,
         isRevealed: true,
         isMine: false,
         halfRevealed: false,
@@ -46,7 +47,6 @@ storiesOf(
   <Container>
     <CardContainer
       card={{
-        isFetching: false,
         isRevealed: true,
         isMine: true,
         halfRevealed: false,

@@ -64,9 +64,9 @@ const AnimatedBlink = styled.div`
   justify-content: center;
 `;
 
-const Card = ({ card }) =>
+const Card = ({ card, onClick }) =>
   <ContainerCardOutside>
-    <Container isRevealed={card.isRevealed}>
+    <Container isRevealed={card.isRevealed} onClick={onClick}>
       {card.isRevealed &&
         <AnimatedBlink>
           <Icon
@@ -88,6 +88,7 @@ Card.propTypes = {
     isMine: propTypes.bool.isRequired,
     halfRevealed: propTypes.bool.isRequired,
   }),
+  onClick: propTypes.func.isRequired,
 };
 
 Card.defaultProps = {
