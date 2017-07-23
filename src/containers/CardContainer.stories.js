@@ -11,19 +11,11 @@ const Container = styled.div`
   height: 130px;
 `;
 
-storiesOf(`CardContainer`, module).add(`fetching true`, () =>
+storiesOf(`CardContainer`, module).add(`fetching true (clickable)`, () =>
   <Container>
     <CardContainer
       card={{ isRevealed: false, isMine: false, halfRevealed: false }}
     />
-  </Container>,
-);
-storiesOf(
-  `CardContainer`,
-  module,
-).add(`fetching false with default props`, () =>
-  <Container>
-    <CardContainer />
   </Container>,
 );
 storiesOf(

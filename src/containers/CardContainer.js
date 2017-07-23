@@ -4,13 +4,11 @@ import {
   renderComponent,
   withHandlers,
   withState,
-  defaultProps,
 } from 'recompose';
 import Card from '../components/Card';
 import FetchingCard from '../components/FetchingCard';
 
 const onClickCard = ({ setFetching, card }) => () => {
-  console.log(card);
   if (!card.isRevealed) {
     setFetching(true);
   }
