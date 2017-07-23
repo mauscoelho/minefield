@@ -13,7 +13,8 @@ const Container = styled.div`
   background-color: ${Colors.background};
 `;
 
-const renderCards = cards => cards.map(card => <Card card={card} />);
+const renderCards = cards =>
+  cards.map(card => <Card key={card.id} card={card} />);
 
 const GameBody = ({ cards }) =>
   <Container>

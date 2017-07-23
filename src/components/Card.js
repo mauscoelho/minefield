@@ -16,11 +16,7 @@ import {
 } from '../styles';
 
 const Container = styled(ContainerCard)` 
-  padding: 18px; 
-    ${props =>
-      props.isRevealed
-        ? Colors.backgroundRevealed
-        : Colors.backgroundNotRevealed};
+  padding: 18px;     
   background-color: ${props =>
     props.isRevealed
       ? Colors.backgroundRevealed
