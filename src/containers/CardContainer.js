@@ -4,7 +4,12 @@ import FetchingCard from '../components/FetchingCard';
 
 const enhance = compose(
   defaultProps({
-    card: { isFetching: false },
+    card: {
+      isFetching: false,
+      isRevealed: false,
+      isMine: false,
+      halfRevealed: false,
+    },
   }),
   branch(
     props => !props.card.isFetching,
