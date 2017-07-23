@@ -11,7 +11,7 @@ const Container = styled.div`
   height: 130px;
 `;
 
-storiesOf(`Card`, module).add(`fetching`, () =>
+storiesOf(`FetchingCard`, module).add(`fetching`, () =>
   <Container>
     <FetchingCard />
   </Container>,
