@@ -10,14 +10,66 @@ const Container = styled.div`
   width: 620px;
 `;
 
-const cards = new Array(25).fill({
-  isRevealed: false,
-  isMine: false,
-  halfRevealed: false,
+storiesOf(`GameBody`, module).add(`all items not revealed`, () => {
+  const cards = new Array(25).fill({
+    isRevealed: false,
+    isMine: false,
+    halfRevealed: false,
+  });
+  return (
+    <Container>
+      <GameBody cards={cards} />
+    </Container>
+  );
 });
 
-storiesOf(`GameBody`, module).add(`all items not revealed`, () =>
-  <Container>
-    <GameBody cards={cards} />
-  </Container>,
-);
+storiesOf(`GameBody`, module).add(`is lost with two mines`, () => {
+  const cards = new Array(25).fill({
+    isRevealed: true,
+    isMine: false,
+    halfRevealed: true,
+  });
+  cards[0] = {
+    isRevealed: true,
+    isMine: true,
+    halfRevealed: false,
+  };
+  cards[1] = {
+    isRevealed: true,
+    isMine: true,
+    halfRevealed: true,
+  };
+  return (
+    <Container>
+      <GameBody cards={cards} />
+    </Container>
+  );
+});
+
+storiesOf(`GameBody`, module).add(`is win with two mines`, () => {
+  const cards = new Array(25).fill({
+    isRevealed: true,
+    isMine: false,
+    halfRevealed: true,
+  });
+  cards[0] = {
+    isRevealed: true,
+    isMine: false,
+    halfRevealed: false,
+  };
+  cards[1] = {
+    isRevealed: true,
+    isMine: true,
+    halfRevealed: true,
+  };
+  cards[2] = {
+    isRevealed: true,
+    isMine: true,
+    halfRevealed: true,
+  };
+  return (
+    <Container>
+      <GameBody cards={cards} />
+    </Container>
+  );
+});

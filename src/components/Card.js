@@ -16,7 +16,7 @@ import {
 } from '../styles';
 
 const Container = styled(ContainerCard)` 
-  padding: 10px; 
+  padding: 18px; 
     ${props =>
       props.isRevealed
         ? Colors.backgroundRevealed
@@ -28,8 +28,8 @@ const Container = styled(ContainerCard)`
 `;
 
 const Icon = styled.img`
-  max-width: ${props => (props.halfRevealed ? `50%` : `100%`)};
-  max-height: ${props => (props.halfRevealed ? `40%` : `90%`)};
+  max-width: ${props => (props.halfRevealed ? `80%` : `100%`)};
+  max-height: ${props => (props.halfRevealed ? `70%` : `90%`)};
   opacity: ${props => (props.halfRevealed ? `0.6` : `1`)};
   animation: ${revealAnimation} 2s;
 `;
