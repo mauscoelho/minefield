@@ -1,10 +1,26 @@
 import styled, { keyframes } from 'styled-components';
+import proximaNova from './fonts/Proxima-Nova-Alt-Regular-webfont.ttf';
 
 export const Colors = {
   backgroundRevealed: `#D2D6E6`,
   backgroundNotRevealed: `#FFFFFF`,
   background: `#E2E4F0`,
+  Header: {
+    title: `#fff`,
+    background: `#5db9f7`,
+  },
+  Body: {
+    background: `#f7f7fa`,
+  },
 };
+
+export const H1Text = styled.h1`
+  font-family: Proxima Nova;
+  @font-face {
+    font-family: 'Proxima Nova';
+    src: url(${proximaNova});
+  }
+`;
 
 export const ContainerCard = styled.span`
   display: flex;
