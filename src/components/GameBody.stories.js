@@ -36,6 +36,29 @@ storiesOf(`GameBody`, module).add(`all items not revealed`, () => {
   );
 });
 
+storiesOf(
+  `GameBody`,
+  module,
+).add(`all items not revealed and one fetching`, () => {
+  const cards = generateFakeCards({
+    isRevealed: false,
+    isMine: false,
+    halfRevealed: false,
+  });
+  cards[0] = {
+    id: 0,
+    isRevealed: true,
+    isMine: true,
+    halfRevealed: false,
+    isFetching: true,
+  };
+  return (
+    <Container>
+      <GameBody cards={cards} />
+    </Container>
+  );
+});
+
 storiesOf(`GameBody`, module).add(`is lost with two mines`, () => {
   const cards = generateFakeCards({
     isRevealed: true,

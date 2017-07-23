@@ -4,10 +4,10 @@ import FetchingCard from '../components/FetchingCard';
 
 const enhance = compose(
   defaultProps({
-    isFetching: false,
+    card: { isFetching: false },
   }),
   branch(
-    props => !props.isFetching,
+    props => !props.card.isFetching,
     renderComponent(Card),
     renderComponent(FetchingCard),
   ),

@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import propTypes from 'prop-types';
 import { Colors } from '../styles';
-import Card from './Card';
+import CardContainer from '../containers/CardContainer';
 
 const Container = styled.div`
   display: flex;
@@ -14,7 +14,7 @@ const Container = styled.div`
 `;
 
 const renderCards = cards =>
-  cards.map(card => <Card key={card.id} card={card} />);
+  cards.map(card => <CardContainer key={card.id} card={card} />);
 
 const GameBody = ({ cards }) =>
   <Container>

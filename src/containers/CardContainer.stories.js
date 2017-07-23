@@ -13,7 +13,7 @@ const Container = styled.div`
 
 storiesOf(`CardContainer`, module).add(`fetching true`, () =>
   <Container>
-    <CardContainer isFetching />
+    <CardContainer card={{ isFetching: true }} />
   </Container>,
 );
 storiesOf(
@@ -21,7 +21,7 @@ storiesOf(
   module,
 ).add(`fetching false with default props`, () =>
   <Container>
-    <CardContainer isFetching={false} />
+    <CardContainer />
   </Container>,
 );
 storiesOf(
@@ -30,8 +30,12 @@ storiesOf(
 ).add(`fetching false with custom props revealed with a diamond`, () =>
   <Container>
     <CardContainer
-      isFetching={false}
-      card={{ isRevealed: true, isMine: false, halfRevealed: false }}
+      card={{
+        isFetching: false,
+        isRevealed: true,
+        isMine: false,
+        halfRevealed: false,
+      }}
     />
   </Container>,
 );
@@ -41,8 +45,12 @@ storiesOf(
 ).add(`fetching false with custom props revealed with a mine`, () =>
   <Container>
     <CardContainer
-      isFetching={false}
-      card={{ isRevealed: true, isMine: true, halfRevealed: false }}
+      card={{
+        isFetching: false,
+        isRevealed: true,
+        isMine: true,
+        halfRevealed: false,
+      }}
     />
   </Container>,
 );
