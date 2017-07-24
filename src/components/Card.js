@@ -15,8 +15,7 @@ import {
   burstAnimation,
 } from '../styles';
 
-const Container = styled(ContainerCard)` 
-  padding: 18px;     
+const Container = styled(ContainerCard)`   
   background-color: ${props =>
     props.isRevealed
       ? Colors.Card.revealedBackground

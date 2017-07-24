@@ -1,36 +1,39 @@
 import React from 'react';
 import styled from 'styled-components';
 import { Colors } from '../styles';
-import Game from './Game';
+import GameContainer from '../containers/GameContainer';
 
-const GameContainer = styled.div`
+const Game = styled.div`
   display: flex;
-  flex: 1;
-  height: 100%;
+  height: 91%;
+  width: 100%;
   border-radius: 1em;
   box-shadow: 0 8px 40px 0 rgba(15, 43, 97, 0.08);
+  background-color: ${Colors.Game.rightBackground};
 `;
 
 const RighContainer = styled.div`
   display: flex;
-  flex: 5;
+  padding-left: 6em;
+  padding-right: 4em;
+  width: 52%;
   background-color: ${Colors.Game.rightBackground};
   border-radius: 0 1em 1em 0;
 `;
 
 const LeftContainer = styled.div`
   display: flex;
-  flex: 2;
+  width: 31%;
   background-color: ${Colors.Game.leftBackground};
   border-radius: 1em 0 0 1em;
 `;
 
 const GameBody = () =>
-  <GameContainer>
+  <Game>
     <LeftContainer />
     <RighContainer>
-      <Game />
+      <GameContainer />
     </RighContainer>
-  </GameContainer>;
+  </Game>;
 
 export default GameBody;

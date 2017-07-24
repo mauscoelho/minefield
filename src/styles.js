@@ -16,7 +16,7 @@ export const Colors = {
   },
   Game: {
     leftBackground: `#fff`,
-    rightBackground: `#D2D6E6`,
+    rightBackground: `#E2E4F0`,
   },
 };
 
@@ -38,10 +38,13 @@ export const ContainerCard = styled.span`
 `;
 
 export const ContainerCardOutside = styled.div`
+  flex-grow: 1;
   display: flex;
-  width: 100px;
-  height: 100px;
-  padding: 10px;
+  width: 15%;
+  height: 15%;
+  min-height: 100px;
+  min-width: 100px;
+  padding: 6px;
   background-color: ${Colors.Card.background};
 `;
 

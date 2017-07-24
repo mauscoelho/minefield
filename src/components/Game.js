@@ -7,9 +7,8 @@ import CardContainer from '../containers/CardContainer';
 const Container = styled.div`
   display: flex;
   flex: 1;
-  padding: 1em 0;
+  width: 100%;
   flex-wrap: wrap;
-  justify-content: space-between;
   background-color: ${Colors.Card.background};
 `;
 
