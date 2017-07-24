@@ -3,6 +3,7 @@ import { storiesOf } from '@storybook/react';
 import React from 'react';
 import styled from 'styled-components';
 import Game from './Game';
+import faker from '../faker';
 
 const Container = styled.div`
   display: flex;
@@ -10,21 +11,8 @@ const Container = styled.div`
   width: 620px;
 `;
 
-const generateFakeCards = ({ isRevealed, isMine, halfRevealed }) => {
-  const fakes = [];
-  for (let i = 0; i < 25; i += 1) {
-    fakes.push({
-      id: i,
-      isRevealed,
-      isMine,
-      halfRevealed,
-    });
-  }
-  return fakes;
-};
-
 storiesOf(`Game`, module).add(`all items not revealed (clickable)`, () => {
-  const cards = generateFakeCards({
+  const cards = faker({
     isRevealed: false,
     isMine: false,
     halfRevealed: false,
@@ -37,7 +25,7 @@ storiesOf(`Game`, module).add(`all items not revealed (clickable)`, () => {
 });
 
 storiesOf(`Game`, module).add(`is lost with two mines`, () => {
-  const cards = generateFakeCards({
+  const cards = faker({
     isRevealed: true,
     isMine: false,
     halfRevealed: true,
@@ -62,7 +50,7 @@ storiesOf(`Game`, module).add(`is lost with two mines`, () => {
 });
 
 storiesOf(`Game`, module).add(`is win with two mines`, () => {
-  const cards = generateFakeCards({
+  const cards = faker({
     isRevealed: true,
     isMine: false,
     halfRevealed: true,
