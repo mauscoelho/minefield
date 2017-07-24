@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { Colors, H1Text } from './styles';
+import Game from './components/Game';
 
 const Container = styled.div`
   display: flex;
@@ -37,7 +38,8 @@ const RightContainer = styled.div`
 
 const LeftContainer = styled.div`
   display: flex;
-  flex: 5;
+  flex: 4;
+  padding: 2.5em;
   align-items: center;
   justify-content: center;
 `;
@@ -49,9 +51,7 @@ const App = () =>
     </Header>
     <Body>
       <LeftContainer>
-        <H1Text>
-          {`GameBody`}
-        </H1Text>
+        <Game />
       </LeftContainer>
       <RightContainer />
     </Body>

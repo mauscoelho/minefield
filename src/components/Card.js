@@ -19,8 +19,8 @@ const Container = styled(ContainerCard)`
   padding: 18px;     
   background-color: ${props =>
     props.isRevealed
-      ? Colors.backgroundRevealed
-      : Colors.backgroundNotRevealed};    
+      ? Colors.Card.revealedBackground
+      : Colors.Card.notRevealedBackground};    
 `;
 
 const Icon = styled.img`

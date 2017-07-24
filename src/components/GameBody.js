@@ -10,7 +10,7 @@ const Container = styled.div`
   padding: 1em 0;
   flex-wrap: wrap;
   justify-content: space-between;
-  background-color: ${Colors.background};
+  background-color: ${Colors.Card.background};
 `;
 
 const renderCards = cards =>

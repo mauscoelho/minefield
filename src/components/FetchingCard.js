@@ -9,16 +9,16 @@ import {
 
 const Container = styled(ContainerCard)`
   box-shadow: 0 0 1px 1px
-    ${Colors.backgroundRevealed};
-  background-color: ${Colors.backgroundRevealed};
+    ${Colors.Card.revealedBackground};
+  background-color: ${Colors.Card.revealedBackground};
 `;
 
 const Pulse = styled(Container)`  
-  background-color: ${Colors.backgroundNotRevealed};
+  background-color: ${Colors.Card.notRevealedBackground};
   animation: ${pulseAnimation} 2s infinite;
   align-self: stretch;
-  box-shadow: 0 0 2px 1px ${Colors.backgroundNotRevealed};
-  box-shadow: 0 0 2px 1px ${Colors.backgroundNotRevealed};
+  box-shadow: 0 0 2px 1px ${Colors.Card.notRevealedBackground};
+  box-shadow: 0 0 2px 1px ${Colors.Card.notRevealedBackground};
 `;
 
 const FetchingCard = () =>

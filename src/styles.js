@@ -2,15 +2,21 @@ import styled, { keyframes } from 'styled-components';
 import proximaNova from './fonts/Proxima-Nova-Alt-Regular-webfont.ttf';
 
 export const Colors = {
-  backgroundRevealed: `#D2D6E6`,
-  backgroundNotRevealed: `#FFFFFF`,
-  background: `#E2E4F0`,
+  Card: {
+    revealedBackground: `#D2D6E6`,
+    notRevealedBackground: `#FFFFFF`,
+    background: `#E2E4F0`,
+  },
   Header: {
     title: `#fff`,
     background: `#5db9f7`,
   },
   Body: {
     background: `#f7f7fa`,
+  },
+  Game: {
+    leftBackground: `#fff`,
+    rightBackground: `#D2D6E6`,
   },
 };
 
@@ -36,7 +42,7 @@ export const ContainerCardOutside = styled.div`
   width: 100px;
   height: 100px;
   padding: 10px;
-  background-color: ${Colors.background};
+  background-color: ${Colors.Card.background};
 `;
 
 export const pulseAnimation = keyframes`
