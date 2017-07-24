@@ -8,6 +8,9 @@ const Container = styled.div`
   display: flex;
   flex: 1;
   flex-wrap: wrap;
+  width: 35em;
+  flex: 0 0 35em;
+  height: 35em;
   background-color: ${Colors.Card.background};
 `;
 
