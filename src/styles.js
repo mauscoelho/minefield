@@ -28,26 +28,6 @@ export const H1Text = styled.h1`
   }
 `;
 
-export const ContainerCard = styled.span`
-  display: flex;
-  flex: 1;
-  flex-direction: column;
-  border-radius: 10px;
-  justify-content: center;
-  align-items: center;
-`;
-
-export const ContainerCardOutside = styled.div`
-  flex-grow: 1;
-  display: flex;
-  width: 15%;
-  height: 15%;
-  min-height: 100px;
-  min-width: 100px;
-  padding: 6px;
-  background-color: ${Colors.Card.background};
-`;
-
 export const pulseAnimation = keyframes`
 0% { transform: scale(0.90); }
 25% { transform: scale(1.15); }
@@ -65,11 +45,11 @@ to {
 `;
 
 export const blinkAnimation = keyframes`
-100% { background-position: -6440px; }
+100% { background-position: -6900px; }
 `;
 
 export const burstAnimation = keyframes`
-100% { background-position: -19716px; }
+100% { background-position: -23960px; }
 `;
 
 export const revealAnimation = keyframes`

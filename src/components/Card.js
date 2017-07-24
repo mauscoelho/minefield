@@ -6,8 +6,6 @@ import mine from '../images/mine.png';
 import blink from '../images/blink.png';
 import burst from '../images/burst.png';
 import {
-  ContainerCard,
-  ContainerCardOutside,
   Colors,
   revealAnimation,
   blinkAnimation,
@@ -15,43 +13,67 @@ import {
   burstAnimation,
 } from '../styles';
 
-const Container = styled(ContainerCard)`   
+const ContainerCardOutside = styled.div`
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  min-width: 15%;
+  height: 100px;
+  margin: 6px;
+`;
+
+const Container = styled.span`
+  display: flex;
+  flex: 1;
+  align-self: stretch;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
   background-color: ${props =>
     props.isRevealed
       ? Colors.Card.revealedBackground
-      : Colors.Card.notRevealedBackground};    
+      : Colors.Card.notRevealedBackground};
 `;
 
 const Icon = styled.img`
-  max-width: ${props => (props.halfRevealed ? `80%` : `100%`)};
-  max-height: ${props => (props.halfRevealed ? `70%` : `90%`)};
+  max-width: ${props => (props.halfRevealed ? `60%` : `80%`)};
+  max-height: ${props => (props.halfRevealed ? `50%` : `70%`)};
   opacity: ${props => (props.halfRevealed ? `0.6` : `1`)};
   animation: ${revealAnimation} 2s;
 `;
 
 const Blink = styled.div`
   background-image: url(${blink});
-  width: 90%;
-  height: 90%;
+  display: flex;
+  width: 100px;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
   background-size: cover;
-  animation: ${blinkAnimation} 1s steps(8);
-  position: absolute;
+  animation: ${blinkAnimation} 1s steps(23);
 `;
 
 const Burst = styled.div`
   background-image: url(${burst});
-  width: 100%;
-  height: 100%;
+  display: flex;
+  width: 200px;
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
   background-size: cover;
-  animation: ${burstAnimation} 1s steps(8);
-  position: absolute;
+  background-size: cover;
+  animation: ${burstAnimation} 6s steps(40);
 `;
 
 const HideContainer = styled.div`
   display: flex;
+  align-items: center;
+  justify-content: center;
   flex: 1;
-  width: 14em;
-  height: 14em;
   animation: ${hideAnimation} 0s ease-in 1s forwards;
   position: absolute;
 `;
@@ -59,8 +81,12 @@ const HideContainer = styled.div`
 const AnimatedBlink = styled.div`
   display: flex;
   flex: 1;
-  align-items: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
   justify-content: center;
+  align-self: center;
+  align-items: center;
 `;
 
 const Card = ({ card, onClick }) =>

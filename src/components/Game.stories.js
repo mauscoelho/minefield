@@ -8,7 +8,6 @@ import faker from '../faker';
 const Container = styled.div`
   display: flex;
   flex: 1;
-  width: 620px;
 `;
 
 storiesOf(`Game`, module).add(`all items not revealed (clickable)`, () => {
@@ -17,11 +16,7 @@ storiesOf(`Game`, module).add(`all items not revealed (clickable)`, () => {
     isMine: false,
     halfRevealed: false,
   });
-  return (
-    <Container>
-      <Game cards={cards} />
-    </Container>
-  );
+  return <Game cards={cards} />;
 });
 
 storiesOf(`Game`, module).add(`is lost with two mines`, () => {

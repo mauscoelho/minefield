@@ -39,7 +39,11 @@ const RightContainer = styled.div`
 const LeftContainer = styled.div`
   display: flex;
   flex: 4;
-  padding: 2.5em;
+  padding-top: 2.5em;
+  padding-left: 3em;
+  padding-right: 3em;
+  padding-bottom: 6em;
+  background-color: ${Colors.Body.background};
 `;
 
 const App = () =>
