@@ -7,8 +7,8 @@ const ContainerCardOutside = styled.div`
   flex: 1;
   align-items: center;
   justify-content: center;
-  flex-grow: 1;
-  min-width: 15%;
+  width: 100px;
+  flex: 0 0 100px;
   height: 100px;
   margin: 6px;
 `;

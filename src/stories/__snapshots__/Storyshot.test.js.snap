@@ -17,10 +17,10 @@ exports[`Storyshots Card is loss and half revealed with diamond 1`] = `
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  -webkit-flex-grow: 1;
-  -ms-flex-grow: 1;
-  flex-grow: 1;
-  min-width: 15%;
+  width: 100px;
+  -webkit-flex: 0 0 100px;
+  -ms-flex: 0 0 100px;
+  flex: 0 0 100px;
   height: 100px;
   margin: 6px;
 }
@@ -116,10 +116,10 @@ exports[`Storyshots Card is loss and half revealed with mine 1`] = `
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  -webkit-flex-grow: 1;
-  -ms-flex-grow: 1;
-  flex-grow: 1;
-  min-width: 15%;
+  width: 100px;
+  -webkit-flex: 0 0 100px;
+  -ms-flex: 0 0 100px;
+  flex: 0 0 100px;
   height: 100px;
   margin: 6px;
 }
@@ -215,10 +215,10 @@ exports[`Storyshots Card not revealed 1`] = `
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  -webkit-flex-grow: 1;
-  -ms-flex-grow: 1;
-  flex-grow: 1;
-  min-width: 15%;
+  width: 100px;
+  -webkit-flex: 0 0 100px;
+  -ms-flex: 0 0 100px;
+  flex: 0 0 100px;
   height: 100px;
   margin: 6px;
 }
@@ -273,10 +273,10 @@ exports[`Storyshots Card revealed with diamond 1`] = `
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  -webkit-flex-grow: 1;
-  -ms-flex-grow: 1;
-  flex-grow: 1;
-  min-width: 15%;
+  width: 100px;
+  -webkit-flex: 0 0 100px;
+  -ms-flex: 0 0 100px;
+  flex: 0 0 100px;
   height: 100px;
   margin: 6px;
 }
@@ -424,10 +424,10 @@ exports[`Storyshots Card revealed with mine 1`] = `
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  -webkit-flex-grow: 1;
-  -ms-flex-grow: 1;
-  flex-grow: 1;
-  min-width: 15%;
+  width: 100px;
+  -webkit-flex: 0 0 100px;
+  -ms-flex: 0 0 100px;
+  flex: 0 0 100px;
   height: 100px;
   margin: 6px;
 }
@@ -576,10 +576,10 @@ exports[`Storyshots CardContainer fetching false with custom props revealed with
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  -webkit-flex-grow: 1;
-  -ms-flex-grow: 1;
-  flex-grow: 1;
-  min-width: 15%;
+  width: 100px;
+  -webkit-flex: 0 0 100px;
+  -ms-flex: 0 0 100px;
+  flex: 0 0 100px;
   height: 100px;
   margin: 6px;
 }
@@ -743,10 +743,10 @@ exports[`Storyshots CardContainer fetching false with custom props revealed with
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  -webkit-flex-grow: 1;
-  -ms-flex-grow: 1;
-  flex-grow: 1;
-  min-width: 15%;
+  width: 100px;
+  -webkit-flex: 0 0 100px;
+  -ms-flex: 0 0 100px;
+  flex: 0 0 100px;
   height: 100px;
   margin: 6px;
 }
@@ -911,10 +911,10 @@ exports[`Storyshots CardContainer fetching true (clickable) 1`] = `
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  -webkit-flex-grow: 1;
-  -ms-flex-grow: 1;
-  flex-grow: 1;
-  min-width: 15%;
+  width: 100px;
+  -webkit-flex: 0 0 100px;
+  -ms-flex: 0 0 100px;
+  flex: 0 0 100px;
   height: 100px;
   margin: 6px;
 }
@@ -985,10 +985,10 @@ exports[`Storyshots FetchingCard fetching 1`] = `
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  -webkit-flex-grow: 1;
-  -ms-flex-grow: 1;
-  flex-grow: 1;
-  min-width: 15%;
+  width: 100px;
+  -webkit-flex: 0 0 100px;
+  -ms-flex: 0 0 100px;
+  flex: 0 0 100px;
   height: 100px;
   margin: 6px;
 }
@@ -1071,10 +1071,10 @@ exports[`Storyshots Game all items not revealed (clickable) 1`] = `
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  -webkit-flex-grow: 1;
-  -ms-flex-grow: 1;
-  flex-grow: 1;
-  min-width: 15%;
+  width: 100px;
+  -webkit-flex: 0 0 100px;
+  -ms-flex: 0 0 100px;
+  flex: 0 0 100px;
   height: 100px;
   margin: 6px;
 }
@@ -1339,10 +1339,10 @@ exports[`Storyshots Game is lost with two mines 1`] = `
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  -webkit-flex-grow: 1;
-  -ms-flex-grow: 1;
-  flex-grow: 1;
-  min-width: 15%;
+  width: 100px;
+  -webkit-flex: 0 0 100px;
+  -ms-flex: 0 0 100px;
+  flex: 0 0 100px;
   height: 100px;
   margin: 6px;
 }
@@ -1939,10 +1939,10 @@ exports[`Storyshots Game is win with two mines 1`] = `
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  -webkit-flex-grow: 1;
-  -ms-flex-grow: 1;
-  flex-grow: 1;
-  min-width: 15%;
+  width: 100px;
+  -webkit-flex: 0 0 100px;
+  -ms-flex: 0 0 100px;
+  flex: 0 0 100px;
   height: 100px;
   margin: 6px;
 }
