@@ -12,6 +12,8 @@ const Game = styled.div`
 const RighContainer = styled.div`
   display: flex;
   flex: 1;
+  align-items: center;
+  justify-content: center;
   border-radius: 0 1em 1em 0;
   background-color: ${Colors.Game.rightBackground};
   padding-left: 5em;

@@ -1113,6 +1113,11 @@ exports[`Storyshots Game all items not revealed (clickable) 1`] = `
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  width: 35em;
+  -webkit-flex: 0 0 35em;
+  -ms-flex: 0 0 35em;
+  flex: 0 0 35em;
+  height: 35em;
   background-color: #E2E4F0;
 }
 
@@ -1467,6 +1472,11 @@ exports[`Storyshots Game is lost with two mines 1`] = `
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  width: 35em;
+  -webkit-flex: 0 0 35em;
+  -ms-flex: 0 0 35em;
+  flex: 0 0 35em;
+  height: 35em;
   background-color: #E2E4F0;
 }
 
@@ -2066,6 +2076,11 @@ exports[`Storyshots Game is win with two mines 1`] = `
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  width: 35em;
+  -webkit-flex: 0 0 35em;
+  -ms-flex: 0 0 35em;
+  flex: 0 0 35em;
+  height: 35em;
   background-color: #E2E4F0;
 }
 
