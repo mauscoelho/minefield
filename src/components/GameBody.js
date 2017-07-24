@@ -1,32 +1,36 @@
 import React from 'react';
 import styled from 'styled-components';
-import propTypes from 'prop-types';
 import { Colors } from '../styles';
-import CardContainer from '../containers/CardContainer';
+import Game from './Game';
 
-const Container = styled.div`
+const GameContainer = styled.div`
   display: flex;
   flex: 1;
-  padding: 1em 0;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  background-color: ${Colors.Card.background};
+  height: 100%;
+  border-radius: 1em;
+  box-shadow: 0 8px 40px 0 rgba(15, 43, 97, 0.08);
 `;
 
-const renderCards = cards =>
-  cards.map(card => <CardContainer key={card.id} card={card} />);
+const RighContainer = styled.div`
+  display: flex;
+  flex: 5;
+  background-color: ${Colors.Game.rightBackground};
+  border-radius: 0 1em 1em 0;
+`;
 
-const GameBody = ({ cards }) =>
-  <Container>
-    {renderCards(cards)}
-  </Container>;
+const LeftContainer = styled.div`
+  display: flex;
+  flex: 2;
+  background-color: ${Colors.Game.leftBackground};
+  border-radius: 1em 0 0 1em;
+`;
 
-GameBody.propTypes = {
-  cards: propTypes.arrayOf(propTypes.object),
-};
-
-GameBody.defaultProps = {
-  cards: [],
-};
+const GameBody = () =>
+  <GameContainer>
+    <LeftContainer />
+    <RighContainer>
+      <Game />
+    </RighContainer>
+  </GameContainer>;
 
 export default GameBody;

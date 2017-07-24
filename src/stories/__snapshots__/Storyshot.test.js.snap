@@ -937,7 +937,7 @@ exports[`Storyshots FetchingCard fetching 1`] = `
 </div>
 `;
 
-exports[`Storyshots GameBody all items not revealed (clickable) 1`] = `
+exports[`Storyshots Game all items not revealed (clickable) 1`] = `
 .c4 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1216,7 +1216,7 @@ exports[`Storyshots GameBody all items not revealed (clickable) 1`] = `
 </div>
 `;
 
-exports[`Storyshots GameBody is lost with two mines 1`] = `
+exports[`Storyshots Game is lost with two mines 1`] = `
 .c4 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1786,7 +1786,7 @@ exports[`Storyshots GameBody is lost with two mines 1`] = `
 </div>
 `;
 
-exports[`Storyshots GameBody is win with two mines 1`] = `
+exports[`Storyshots Game is win with two mines 1`] = `
 .c4 {
   display: -webkit-box;
   display: -webkit-flex;

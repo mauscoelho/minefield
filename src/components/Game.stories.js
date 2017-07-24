@@ -2,7 +2,7 @@
 import { storiesOf } from '@storybook/react';
 import React from 'react';
 import styled from 'styled-components';
-import GameBody from './GameBody';
+import Game from './Game';
 
 const Container = styled.div`
   display: flex;
@@ -23,7 +23,7 @@ const generateFakeCards = ({ isRevealed, isMine, halfRevealed }) => {
   return fakes;
 };
 
-storiesOf(`GameBody`, module).add(`all items not revealed (clickable)`, () => {
+storiesOf(`Game`, module).add(`all items not revealed (clickable)`, () => {
   const cards = generateFakeCards({
     isRevealed: false,
     isMine: false,
@@ -31,12 +31,12 @@ storiesOf(`GameBody`, module).add(`all items not revealed (clickable)`, () => {
   });
   return (
     <Container>
-      <GameBody cards={cards} />
+      <Game cards={cards} />
     </Container>
   );
 });
 
-storiesOf(`GameBody`, module).add(`is lost with two mines`, () => {
+storiesOf(`Game`, module).add(`is lost with two mines`, () => {
   const cards = generateFakeCards({
     isRevealed: true,
     isMine: false,
@@ -56,12 +56,12 @@ storiesOf(`GameBody`, module).add(`is lost with two mines`, () => {
   };
   return (
     <Container>
-      <GameBody cards={cards} />
+      <Game cards={cards} />
     </Container>
   );
 });
 
-storiesOf(`GameBody`, module).add(`is win with two mines`, () => {
+storiesOf(`Game`, module).add(`is win with two mines`, () => {
   const cards = generateFakeCards({
     isRevealed: true,
     isMine: false,
@@ -87,7 +87,7 @@ storiesOf(`GameBody`, module).add(`is win with two mines`, () => {
   };
   return (
     <Container>
-      <GameBody cards={cards} />
+      <Game cards={cards} />
     </Container>
   );
 });

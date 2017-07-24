@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { Colors, H1Text } from './styles';
-import Game from './components/Game';
+import Game from './components/GameBody';
 
 const Container = styled.div`
   display: flex;
