@@ -1,7 +1,31 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Storyshots Card is loss and half revealed with diamond 1`] = `
-.c3 {
+.c0 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-grow: 1;
+  -ms-flex-grow: 1;
+  flex-grow: 1;
+  min-width: 15%;
+  height: 100px;
+  margin: 6px;
+}
+
+.c1 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -9,9 +33,9 @@ exports[`Storyshots Card is loss and half revealed with diamond 1`] = `
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
+  -webkit-align-self: stretch;
+  -ms-flex-item-align: stretch;
+  align-self: stretch;
   border-radius: 10px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
@@ -21,33 +45,18 @@ exports[`Storyshots Card is loss and half revealed with diamond 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-}
-
-.c1 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  width: 100px;
-  height: 100px;
-  padding: 10px;
-  background-color: #E2E4F0;
-}
-
-.c2 {
-  padding: 18px;
   background-color: #D2D6E6;
 }
 
-.c5 {
-  max-width: 80%;
-  max-height: 70%;
+.c3 {
+  max-width: 60%;
+  max-height: 50%;
   opacity: 0.6;
   -webkit-animation: dJeCOu 2s;
   animation: dJeCOu 2s;
 }
 
-.c4 {
+.c2 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -55,53 +64,67 @@ exports[`Storyshots Card is loss and half revealed with diamond 1`] = `
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-}
-
-.c0 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
-  width: 130px;
-  height: 130px;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 <div
   className="c0"
 >
-  <div
+  <span
     className="c1"
+    onClick={[Function]}
   >
-    <span
-      className="c2 c3"
-      onClick={[Function]}
+    <div
+      className="c2"
     >
-      <div
-        className="c4"
-      >
-        <img
-          className="c5"
-          src="diamond.png"
-        />
-      </div>
-    </span>
-  </div>
+      <img
+        className="c3"
+        src="diamond.png"
+      />
+    </div>
+  </span>
 </div>
 `;
 
 exports[`Storyshots Card is loss and half revealed with mine 1`] = `
-.c3 {
+.c0 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-grow: 1;
+  -ms-flex-grow: 1;
+  flex-grow: 1;
+  min-width: 15%;
+  height: 100px;
+  margin: 6px;
+}
+
+.c1 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -109,9 +132,9 @@ exports[`Storyshots Card is loss and half revealed with mine 1`] = `
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
+  -webkit-align-self: stretch;
+  -ms-flex-item-align: stretch;
+  align-self: stretch;
   border-radius: 10px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
@@ -121,33 +144,18 @@ exports[`Storyshots Card is loss and half revealed with mine 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-}
-
-.c1 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  width: 100px;
-  height: 100px;
-  padding: 10px;
-  background-color: #E2E4F0;
-}
-
-.c2 {
-  padding: 18px;
   background-color: #D2D6E6;
 }
 
-.c5 {
-  max-width: 80%;
-  max-height: 70%;
+.c3 {
+  max-width: 60%;
+  max-height: 50%;
   opacity: 0.6;
   -webkit-animation: dJeCOu 2s;
   animation: dJeCOu 2s;
 }
 
-.c4 {
+.c2 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -155,53 +163,67 @@ exports[`Storyshots Card is loss and half revealed with mine 1`] = `
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-}
-
-.c0 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
-  width: 130px;
-  height: 130px;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 <div
   className="c0"
 >
-  <div
+  <span
     className="c1"
+    onClick={[Function]}
   >
-    <span
-      className="c2 c3"
-      onClick={[Function]}
+    <div
+      className="c2"
     >
-      <div
-        className="c4"
-      >
-        <img
-          className="c5"
-          src="mine.png"
-        />
-      </div>
-    </span>
-  </div>
+      <img
+        className="c3"
+        src="mine.png"
+      />
+    </div>
+  </span>
 </div>
 `;
 
 exports[`Storyshots Card not revealed 1`] = `
-.c3 {
+.c0 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-grow: 1;
+  -ms-flex-grow: 1;
+  flex-grow: 1;
+  min-width: 15%;
+  height: 100px;
+  margin: 6px;
+}
+
+.c1 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -209,9 +231,9 @@ exports[`Storyshots Card not revealed 1`] = `
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
+  -webkit-align-self: stretch;
+  -ms-flex-item-align: stretch;
+  align-self: stretch;
   border-radius: 10px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
@@ -221,52 +243,45 @@ exports[`Storyshots Card not revealed 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-}
-
-.c1 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  width: 100px;
-  height: 100px;
-  padding: 10px;
-  background-color: #E2E4F0;
-}
-
-.c2 {
-  padding: 18px;
   background-color: #FFFFFF;
-}
-
-.c0 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
-  width: 130px;
-  height: 130px;
 }
 
 <div
   className="c0"
 >
-  <div
+  <span
     className="c1"
-  >
-    <span
-      className="c2 c3"
-      onClick={[Function]}
-    />
-  </div>
+    onClick={[Function]}
+  />
 </div>
 `;
 
 exports[`Storyshots Card revealed with diamond 1`] = `
-.c3 {
+.c0 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-grow: 1;
+  -ms-flex-grow: 1;
+  flex-grow: 1;
+  min-width: 15%;
+  height: 100px;
+  margin: 6px;
+}
+
+.c1 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -274,9 +289,9 @@ exports[`Storyshots Card revealed with diamond 1`] = `
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
+  -webkit-align-self: stretch;
+  -ms-flex-item-align: stretch;
+  align-self: stretch;
   border-radius: 10px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
@@ -286,55 +301,39 @@ exports[`Storyshots Card revealed with diamond 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  background-color: #D2D6E6;
 }
 
-.c1 {
+.c3 {
+  max-width: 80%;
+  max-height: 70%;
+  opacity: 1;
+  -webkit-animation: dJeCOu 2s;
+  animation: dJeCOu 2s;
+}
+
+.c5 {
+  background-image: url(blink.png);
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   width: 100px;
   height: 100px;
-  padding: 10px;
-  background-color: #E2E4F0;
-}
-
-.c2 {
-  padding: 18px;
-  background-color: #D2D6E6;
-}
-
-.c5 {
-  max-width: 100%;
-  max-height: 90%;
-  opacity: 1;
-  -webkit-animation: dJeCOu 2s;
-  animation: dJeCOu 2s;
-}
-
-.c7 {
-  background-image: url(blink.png);
-  width: 90%;
-  height: 90%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
   background-size: cover;
-  -webkit-animation: gCbXbQ 1s steps(8);
-  animation: gCbXbQ 1s steps(8);
-  position: absolute;
-}
-
-.c6 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
-  width: 14em;
-  height: 14em;
-  -webkit-animation: kKMSIs 0s ease-in 1s forwards;
-  animation: kKMSIs 0s ease-in 1s forwards;
-  position: absolute;
+  -webkit-animation: jdUSDT 1s steps(23);
+  animation: jdUSDT 1s steps(23);
 }
 
 .c4 {
@@ -342,9 +341,6 @@ exports[`Storyshots Card revealed with diamond 1`] = `
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -353,9 +349,15 @@ exports[`Storyshots Card revealed with diamond 1`] = `
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-animation: kKMSIs 0s ease-in 1s forwards;
+  animation: kKMSIs 0s ease-in 1s forwards;
+  position: absolute;
 }
 
-.c0 {
+.c2 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -363,42 +365,74 @@ exports[`Storyshots Card revealed with diamond 1`] = `
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
-  width: 130px;
-  height: 130px;
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 <div
   className="c0"
 >
-  <div
+  <span
     className="c1"
+    onClick={[Function]}
   >
-    <span
-      className="c2 c3"
-      onClick={[Function]}
+    <div
+      className="c2"
     >
+      <img
+        className="c3"
+        src="diamond.png"
+      />
       <div
         className="c4"
       >
-        <img
-          className="c5"
-          src="diamond.png"
-        />
         <div
-          className="c6"
-        >
-          <div
-            className="c7"
-          />
-        </div>
+          className="c5"
+        />
       </div>
-    </span>
-  </div>
+    </div>
+  </span>
 </div>
 `;
 
 exports[`Storyshots Card revealed with mine 1`] = `
-.c3 {
+.c0 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-grow: 1;
+  -ms-flex-grow: 1;
+  flex-grow: 1;
+  min-width: 15%;
+  height: 100px;
+  margin: 6px;
+}
+
+.c1 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -406,9 +440,9 @@ exports[`Storyshots Card revealed with mine 1`] = `
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
+  -webkit-align-self: stretch;
+  -ms-flex-item-align: stretch;
+  align-self: stretch;
   border-radius: 10px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
@@ -418,55 +452,40 @@ exports[`Storyshots Card revealed with mine 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-}
-
-.c1 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  width: 100px;
-  height: 100px;
-  padding: 10px;
-  background-color: #E2E4F0;
-}
-
-.c2 {
-  padding: 18px;
   background-color: #D2D6E6;
 }
 
-.c5 {
-  max-width: 100%;
-  max-height: 90%;
+.c3 {
+  max-width: 80%;
+  max-height: 70%;
   opacity: 1;
   -webkit-animation: dJeCOu 2s;
   animation: dJeCOu 2s;
 }
 
-.c7 {
+.c5 {
   background-image: url(burst.png);
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-  -webkit-animation: eRUnmX 1s steps(8);
-  animation: eRUnmX 1s steps(8);
-  position: absolute;
-}
-
-.c6 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
-  width: 14em;
-  height: 14em;
-  -webkit-animation: kKMSIs 0s ease-in 1s forwards;
-  animation: kKMSIs 0s ease-in 1s forwards;
-  position: absolute;
+  width: 200px;
+  height: 200px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  background-size: cover;
+  background-size: cover;
+  -webkit-animation: kvgzel 6s steps(40);
+  animation: kvgzel 6s steps(40);
 }
 
 .c4 {
@@ -474,9 +493,6 @@ exports[`Storyshots Card revealed with mine 1`] = `
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -485,9 +501,15 @@ exports[`Storyshots Card revealed with mine 1`] = `
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-animation: kKMSIs 0s ease-in 1s forwards;
+  animation: kKMSIs 0s ease-in 1s forwards;
+  position: absolute;
 }
 
-.c0 {
+.c2 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -495,42 +517,74 @@ exports[`Storyshots Card revealed with mine 1`] = `
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
-  width: 130px;
-  height: 130px;
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 <div
   className="c0"
 >
-  <div
+  <span
     className="c1"
+    onClick={[Function]}
   >
-    <span
-      className="c2 c3"
-      onClick={[Function]}
+    <div
+      className="c2"
     >
+      <img
+        className="c3"
+        src="mine.png"
+      />
       <div
         className="c4"
       >
-        <img
-          className="c5"
-          src="mine.png"
-        />
         <div
-          className="c6"
-        >
-          <div
-            className="c7"
-          />
-        </div>
+          className="c5"
+        />
       </div>
-    </span>
-  </div>
+    </div>
+  </span>
 </div>
 `;
 
 exports[`Storyshots CardContainer fetching false with custom props revealed with a diamond 1`] = `
-.c3 {
+.c1 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-grow: 1;
+  -ms-flex-grow: 1;
+  flex-grow: 1;
+  min-width: 15%;
+  height: 100px;
+  margin: 6px;
+}
+
+.c2 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -538,9 +592,9 @@ exports[`Storyshots CardContainer fetching false with custom props revealed with
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
+  -webkit-align-self: stretch;
+  -ms-flex-item-align: stretch;
+  align-self: stretch;
   border-radius: 10px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
@@ -550,65 +604,46 @@ exports[`Storyshots CardContainer fetching false with custom props revealed with
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  background-color: #D2D6E6;
 }
 
-.c1 {
+.c4 {
+  max-width: 80%;
+  max-height: 70%;
+  opacity: 1;
+  -webkit-animation: dJeCOu 2s;
+  animation: dJeCOu 2s;
+}
+
+.c6 {
+  background-image: url(blink.png);
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   width: 100px;
   height: 100px;
-  padding: 10px;
-  background-color: #E2E4F0;
-}
-
-.c2 {
-  padding: 18px;
-  background-color: #D2D6E6;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  background-size: cover;
+  -webkit-animation: jdUSDT 1s steps(23);
+  animation: jdUSDT 1s steps(23);
 }
 
 .c5 {
-  max-width: 100%;
-  max-height: 90%;
-  opacity: 1;
-  -webkit-animation: dJeCOu 2s;
-  animation: dJeCOu 2s;
-}
-
-.c7 {
-  background-image: url(blink.png);
-  width: 90%;
-  height: 90%;
-  background-size: cover;
-  -webkit-animation: gCbXbQ 1s steps(8);
-  animation: gCbXbQ 1s steps(8);
-  position: absolute;
-}
-
-.c6 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
-  width: 14em;
-  height: 14em;
-  -webkit-animation: kKMSIs 0s ease-in 1s forwards;
-  animation: kKMSIs 0s ease-in 1s forwards;
-  position: absolute;
-}
-
-.c4 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -617,6 +652,36 @@ exports[`Storyshots CardContainer fetching false with custom props revealed with
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-animation: kKMSIs 0s ease-in 1s forwards;
+  animation: kKMSIs 0s ease-in 1s forwards;
+  position: absolute;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .c0 {
@@ -638,21 +703,21 @@ exports[`Storyshots CardContainer fetching false with custom props revealed with
     className="c1"
   >
     <span
-      className="c2 c3"
+      className="c2"
       onClick={[Function]}
     >
       <div
-        className="c4"
+        className="c3"
       >
         <img
-          className="c5"
+          className="c4"
           src="diamond.png"
         />
         <div
-          className="c6"
+          className="c5"
         >
           <div
-            className="c7"
+            className="c6"
           />
         </div>
       </div>
@@ -662,7 +727,31 @@ exports[`Storyshots CardContainer fetching false with custom props revealed with
 `;
 
 exports[`Storyshots CardContainer fetching false with custom props revealed with a mine 1`] = `
-.c3 {
+.c1 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-grow: 1;
+  -ms-flex-grow: 1;
+  flex-grow: 1;
+  min-width: 15%;
+  height: 100px;
+  margin: 6px;
+}
+
+.c2 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -670,9 +759,9 @@ exports[`Storyshots CardContainer fetching false with custom props revealed with
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
+  -webkit-align-self: stretch;
+  -ms-flex-item-align: stretch;
+  align-self: stretch;
   border-radius: 10px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
@@ -682,65 +771,47 @@ exports[`Storyshots CardContainer fetching false with custom props revealed with
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-}
-
-.c1 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  width: 100px;
-  height: 100px;
-  padding: 10px;
-  background-color: #E2E4F0;
-}
-
-.c2 {
-  padding: 18px;
   background-color: #D2D6E6;
 }
 
-.c5 {
-  max-width: 100%;
-  max-height: 90%;
+.c4 {
+  max-width: 80%;
+  max-height: 70%;
   opacity: 1;
   -webkit-animation: dJeCOu 2s;
   animation: dJeCOu 2s;
 }
 
-.c7 {
-  background-image: url(burst.png);
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-  -webkit-animation: eRUnmX 1s steps(8);
-  animation: eRUnmX 1s steps(8);
-  position: absolute;
-}
-
 .c6 {
+  background-image: url(burst.png);
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
-  width: 14em;
-  height: 14em;
-  -webkit-animation: kKMSIs 0s ease-in 1s forwards;
-  animation: kKMSIs 0s ease-in 1s forwards;
-  position: absolute;
+  width: 200px;
+  height: 200px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  background-size: cover;
+  background-size: cover;
+  -webkit-animation: kvgzel 6s steps(40);
+  animation: kvgzel 6s steps(40);
 }
 
-.c4 {
+.c5 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -749,6 +820,36 @@ exports[`Storyshots CardContainer fetching false with custom props revealed with
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-animation: kKMSIs 0s ease-in 1s forwards;
+  animation: kKMSIs 0s ease-in 1s forwards;
+  position: absolute;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .c0 {
@@ -770,21 +871,21 @@ exports[`Storyshots CardContainer fetching false with custom props revealed with
     className="c1"
   >
     <span
-      className="c2 c3"
+      className="c2"
       onClick={[Function]}
     >
       <div
-        className="c4"
+        className="c3"
       >
         <img
-          className="c5"
+          className="c4"
           src="mine.png"
         />
         <div
-          className="c6"
+          className="c5"
         >
           <div
-            className="c7"
+            className="c6"
           />
         </div>
       </div>
@@ -794,7 +895,31 @@ exports[`Storyshots CardContainer fetching false with custom props revealed with
 `;
 
 exports[`Storyshots CardContainer fetching true (clickable) 1`] = `
-.c3 {
+.c1 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-grow: 1;
+  -ms-flex-grow: 1;
+  flex-grow: 1;
+  min-width: 15%;
+  height: 100px;
+  margin: 6px;
+}
+
+.c2 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -802,9 +927,9 @@ exports[`Storyshots CardContainer fetching true (clickable) 1`] = `
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
+  -webkit-align-self: stretch;
+  -ms-flex-item-align: stretch;
+  align-self: stretch;
   border-radius: 10px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
@@ -814,21 +939,6 @@ exports[`Storyshots CardContainer fetching true (clickable) 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-}
-
-.c1 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  width: 100px;
-  height: 100px;
-  padding: 10px;
-  background-color: #E2E4F0;
-}
-
-.c2 {
-  padding: 18px;
   background-color: #FFFFFF;
 }
 
@@ -851,7 +961,7 @@ exports[`Storyshots CardContainer fetching true (clickable) 1`] = `
     className="c1"
   >
     <span
-      className="c2 c3"
+      className="c2"
       onClick={[Function]}
     />
   </div>
@@ -859,7 +969,7 @@ exports[`Storyshots CardContainer fetching true (clickable) 1`] = `
 `;
 
 exports[`Storyshots FetchingCard fetching 1`] = `
-.c3 {
+.c0 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -867,9 +977,33 @@ exports[`Storyshots FetchingCard fetching 1`] = `
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-grow: 1;
+  -ms-flex-grow: 1;
+  flex-grow: 1;
+  min-width: 15%;
+  height: 100px;
+  margin: 6px;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-align-self: stretch;
+  -ms-flex-item-align: stretch;
+  align-self: stretch;
   border-radius: 10px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
@@ -879,33 +1013,93 @@ exports[`Storyshots FetchingCard fetching 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  box-shadow: 0 0 1px 1px #D2D6E6;
+  background-color: #D2D6E6;
 }
 
-.c1 {
+.c2 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   width: 100px;
   height: 100px;
-  padding: 10px;
-  background-color: #E2E4F0;
-}
-
-.c2 {
-  box-shadow: 0 0 1px 1px    #D2D6E6;
-  background-color: #D2D6E6;
-}
-
-.c4 {
+  border-radius: 10px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
   background-color: #FFFFFF;
   -webkit-animation: deBNxY 2s infinite;
   animation: deBNxY 2s infinite;
+}
+
+<div
+  className="c0"
+>
+  <span
+    className="c1"
+  >
+    <div
+      className="c2"
+    />
+  </span>
+</div>
+`;
+
+exports[`Storyshots Game all items not revealed (clickable) 1`] = `
+.c1 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-grow: 1;
+  -ms-flex-grow: 1;
+  flex-grow: 1;
+  min-width: 15%;
+  height: 100px;
+  margin: 6px;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
   -webkit-align-self: stretch;
   -ms-flex-item-align: stretch;
   align-self: stretch;
-  box-shadow: 0 0 2px 1px #FFFFFF;
-  box-shadow: 0 0 2px 1px #FFFFFF;
+  border-radius: 10px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #FFFFFF;
 }
 
 .c0 {
@@ -916,8 +1110,10 @@ exports[`Storyshots FetchingCard fetching 1`] = `
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
-  width: 130px;
-  height: 130px;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  background-color: #E2E4F0;
 }
 
 <div
@@ -927,297 +1123,231 @@ exports[`Storyshots FetchingCard fetching 1`] = `
     className="c1"
   >
     <span
-      className="c2 c3"
-    >
-      <span
-        className="c4 c2 c3"
-      />
-    </span>
+      className="c2"
+      onClick={[Function]}
+    />
   </div>
-</div>
-`;
-
-exports[`Storyshots GameBody all items not revealed (clickable) 1`] = `
-.c4 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  border-radius: 10px;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-.c2 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  width: 100px;
-  height: 100px;
-  padding: 10px;
-  background-color: #E2E4F0;
-}
-
-.c3 {
-  padding: 18px;
-  background-color: #FFFFFF;
-}
-
-.c1 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
-  padding: 1em 0;
-  -webkit-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  -webkit-box-pack: space-between;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: space-between;
-  justify-content: space-between;
-  background-color: #E2E4F0;
-}
-
-.c0 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
-  width: 620px;
-}
-
-<div
-  className="c0"
->
   <div
     className="c1"
   >
-    <div
+    <span
       className="c2"
-    >
-      <span
-        className="c3 c4"
-        onClick={[Function]}
-      />
-    </div>
-    <div
+      onClick={[Function]}
+    />
+  </div>
+  <div
+    className="c1"
+  >
+    <span
       className="c2"
-    >
-      <span
-        className="c3 c4"
-        onClick={[Function]}
-      />
-    </div>
-    <div
+      onClick={[Function]}
+    />
+  </div>
+  <div
+    className="c1"
+  >
+    <span
       className="c2"
-    >
-      <span
-        className="c3 c4"
-        onClick={[Function]}
-      />
-    </div>
-    <div
+      onClick={[Function]}
+    />
+  </div>
+  <div
+    className="c1"
+  >
+    <span
       className="c2"
-    >
-      <span
-        className="c3 c4"
-        onClick={[Function]}
-      />
-    </div>
-    <div
+      onClick={[Function]}
+    />
+  </div>
+  <div
+    className="c1"
+  >
+    <span
       className="c2"
-    >
-      <span
-        className="c3 c4"
-        onClick={[Function]}
-      />
-    </div>
-    <div
+      onClick={[Function]}
+    />
+  </div>
+  <div
+    className="c1"
+  >
+    <span
       className="c2"
-    >
-      <span
-        className="c3 c4"
-        onClick={[Function]}
-      />
-    </div>
-    <div
+      onClick={[Function]}
+    />
+  </div>
+  <div
+    className="c1"
+  >
+    <span
       className="c2"
-    >
-      <span
-        className="c3 c4"
-        onClick={[Function]}
-      />
-    </div>
-    <div
+      onClick={[Function]}
+    />
+  </div>
+  <div
+    className="c1"
+  >
+    <span
       className="c2"
-    >
-      <span
-        className="c3 c4"
-        onClick={[Function]}
-      />
-    </div>
-    <div
+      onClick={[Function]}
+    />
+  </div>
+  <div
+    className="c1"
+  >
+    <span
       className="c2"
-    >
-      <span
-        className="c3 c4"
-        onClick={[Function]}
-      />
-    </div>
-    <div
+      onClick={[Function]}
+    />
+  </div>
+  <div
+    className="c1"
+  >
+    <span
       className="c2"
-    >
-      <span
-        className="c3 c4"
-        onClick={[Function]}
-      />
-    </div>
-    <div
+      onClick={[Function]}
+    />
+  </div>
+  <div
+    className="c1"
+  >
+    <span
       className="c2"
-    >
-      <span
-        className="c3 c4"
-        onClick={[Function]}
-      />
-    </div>
-    <div
+      onClick={[Function]}
+    />
+  </div>
+  <div
+    className="c1"
+  >
+    <span
       className="c2"
-    >
-      <span
-        className="c3 c4"
-        onClick={[Function]}
-      />
-    </div>
-    <div
+      onClick={[Function]}
+    />
+  </div>
+  <div
+    className="c1"
+  >
+    <span
       className="c2"
-    >
-      <span
-        className="c3 c4"
-        onClick={[Function]}
-      />
-    </div>
-    <div
+      onClick={[Function]}
+    />
+  </div>
+  <div
+    className="c1"
+  >
+    <span
       className="c2"
-    >
-      <span
-        className="c3 c4"
-        onClick={[Function]}
-      />
-    </div>
-    <div
+      onClick={[Function]}
+    />
+  </div>
+  <div
+    className="c1"
+  >
+    <span
       className="c2"
-    >
-      <span
-        className="c3 c4"
-        onClick={[Function]}
-      />
-    </div>
-    <div
+      onClick={[Function]}
+    />
+  </div>
+  <div
+    className="c1"
+  >
+    <span
       className="c2"
-    >
-      <span
-        className="c3 c4"
-        onClick={[Function]}
-      />
-    </div>
-    <div
+      onClick={[Function]}
+    />
+  </div>
+  <div
+    className="c1"
+  >
+    <span
       className="c2"
-    >
-      <span
-        className="c3 c4"
-        onClick={[Function]}
-      />
-    </div>
-    <div
+      onClick={[Function]}
+    />
+  </div>
+  <div
+    className="c1"
+  >
+    <span
       className="c2"
-    >
-      <span
-        className="c3 c4"
-        onClick={[Function]}
-      />
-    </div>
-    <div
+      onClick={[Function]}
+    />
+  </div>
+  <div
+    className="c1"
+  >
+    <span
       className="c2"
-    >
-      <span
-        className="c3 c4"
-        onClick={[Function]}
-      />
-    </div>
-    <div
+      onClick={[Function]}
+    />
+  </div>
+  <div
+    className="c1"
+  >
+    <span
       className="c2"
-    >
-      <span
-        className="c3 c4"
-        onClick={[Function]}
-      />
-    </div>
-    <div
+      onClick={[Function]}
+    />
+  </div>
+  <div
+    className="c1"
+  >
+    <span
       className="c2"
-    >
-      <span
-        className="c3 c4"
-        onClick={[Function]}
-      />
-    </div>
-    <div
+      onClick={[Function]}
+    />
+  </div>
+  <div
+    className="c1"
+  >
+    <span
       className="c2"
-    >
-      <span
-        className="c3 c4"
-        onClick={[Function]}
-      />
-    </div>
-    <div
+      onClick={[Function]}
+    />
+  </div>
+  <div
+    className="c1"
+  >
+    <span
       className="c2"
-    >
-      <span
-        className="c3 c4"
-        onClick={[Function]}
-      />
-    </div>
-    <div
+      onClick={[Function]}
+    />
+  </div>
+  <div
+    className="c1"
+  >
+    <span
       className="c2"
-    >
-      <span
-        className="c3 c4"
-        onClick={[Function]}
-      />
-    </div>
-    <div
-      className="c2"
-    >
-      <span
-        className="c3 c4"
-        onClick={[Function]}
-      />
-    </div>
+      onClick={[Function]}
+    />
   </div>
 </div>
 `;
 
-exports[`Storyshots GameBody is lost with two mines 1`] = `
-.c4 {
+exports[`Storyshots Game is lost with two mines 1`] = `
+.c2 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-grow: 1;
+  -ms-flex-grow: 1;
+  flex-grow: 1;
+  min-width: 15%;
+  height: 100px;
+  margin: 6px;
+}
+
+.c3 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1225,9 +1355,9 @@ exports[`Storyshots GameBody is lost with two mines 1`] = `
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
+  -webkit-align-self: stretch;
+  -ms-flex-item-align: stretch;
+  align-self: stretch;
   border-radius: 10px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
@@ -1237,73 +1367,55 @@ exports[`Storyshots GameBody is lost with two mines 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-}
-
-.c2 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  width: 100px;
-  height: 100px;
-  padding: 10px;
-  background-color: #E2E4F0;
-}
-
-.c3 {
-  padding: 18px;
   background-color: #D2D6E6;
 }
 
-.c6 {
-  max-width: 100%;
-  max-height: 90%;
+.c5 {
+  max-width: 80%;
+  max-height: 70%;
   opacity: 1;
   -webkit-animation: dJeCOu 2s;
   animation: dJeCOu 2s;
 }
 
-.c9 {
-  max-width: 80%;
-  max-height: 70%;
+.c8 {
+  max-width: 60%;
+  max-height: 50%;
   opacity: 0.6;
   -webkit-animation: dJeCOu 2s;
   animation: dJeCOu 2s;
 }
 
-.c8 {
+.c7 {
   background-image: url(burst.png);
-  width: 100%;
-  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 200px;
+  height: 200px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
   background-size: cover;
-  -webkit-animation: eRUnmX 1s steps(8);
-  animation: eRUnmX 1s steps(8);
-  position: absolute;
+  background-size: cover;
+  -webkit-animation: kvgzel 6s steps(40);
+  animation: kvgzel 6s steps(40);
 }
 
-.c7 {
+.c6 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
-  width: 14em;
-  height: 14em;
-  -webkit-animation: kKMSIs 0s ease-in 1s forwards;
-  animation: kKMSIs 0s ease-in 1s forwards;
-  position: absolute;
-}
-
-.c5 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -1312,6 +1424,36 @@ exports[`Storyshots GameBody is lost with two mines 1`] = `
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-animation: kKMSIs 0s ease-in 1s forwards;
+  animation: kKMSIs 0s ease-in 1s forwards;
+  position: absolute;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .c1 {
@@ -1322,14 +1464,9 @@ exports[`Storyshots GameBody is lost with two mines 1`] = `
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
-  padding: 1em 0;
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  -webkit-box-pack: space-between;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: space-between;
-  justify-content: space-between;
   background-color: #E2E4F0;
 }
 
@@ -1341,7 +1478,6 @@ exports[`Storyshots GameBody is lost with two mines 1`] = `
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
-  width: 620px;
 }
 
 <div
@@ -1354,21 +1490,21 @@ exports[`Storyshots GameBody is lost with two mines 1`] = `
       className="c2"
     >
       <span
-        className="c3 c4"
+        className="c3"
         onClick={[Function]}
       >
         <div
-          className="c5"
+          className="c4"
         >
           <img
-            className="c6"
+            className="c5"
             src="mine.png"
           />
           <div
-            className="c7"
+            className="c6"
           >
             <div
-              className="c8"
+              className="c7"
             />
           </div>
         </div>
@@ -1378,14 +1514,14 @@ exports[`Storyshots GameBody is lost with two mines 1`] = `
       className="c2"
     >
       <span
-        className="c3 c4"
+        className="c3"
         onClick={[Function]}
       >
         <div
-          className="c5"
+          className="c4"
         >
           <img
-            className="c9"
+            className="c8"
             src="mine.png"
           />
         </div>
@@ -1395,14 +1531,14 @@ exports[`Storyshots GameBody is lost with two mines 1`] = `
       className="c2"
     >
       <span
-        className="c3 c4"
+        className="c3"
         onClick={[Function]}
       >
         <div
-          className="c5"
+          className="c4"
         >
           <img
-            className="c9"
+            className="c8"
             src="diamond.png"
           />
         </div>
@@ -1412,14 +1548,14 @@ exports[`Storyshots GameBody is lost with two mines 1`] = `
       className="c2"
     >
       <span
-        className="c3 c4"
+        className="c3"
         onClick={[Function]}
       >
         <div
-          className="c5"
+          className="c4"
         >
           <img
-            className="c9"
+            className="c8"
             src="diamond.png"
           />
         </div>
@@ -1429,14 +1565,14 @@ exports[`Storyshots GameBody is lost with two mines 1`] = `
       className="c2"
     >
       <span
-        className="c3 c4"
+        className="c3"
         onClick={[Function]}
       >
         <div
-          className="c5"
+          className="c4"
         >
           <img
-            className="c9"
+            className="c8"
             src="diamond.png"
           />
         </div>
@@ -1446,14 +1582,14 @@ exports[`Storyshots GameBody is lost with two mines 1`] = `
       className="c2"
     >
       <span
-        className="c3 c4"
+        className="c3"
         onClick={[Function]}
       >
         <div
-          className="c5"
+          className="c4"
         >
           <img
-            className="c9"
+            className="c8"
             src="diamond.png"
           />
         </div>
@@ -1463,14 +1599,14 @@ exports[`Storyshots GameBody is lost with two mines 1`] = `
       className="c2"
     >
       <span
-        className="c3 c4"
+        className="c3"
         onClick={[Function]}
       >
         <div
-          className="c5"
+          className="c4"
         >
           <img
-            className="c9"
+            className="c8"
             src="diamond.png"
           />
         </div>
@@ -1480,14 +1616,14 @@ exports[`Storyshots GameBody is lost with two mines 1`] = `
       className="c2"
     >
       <span
-        className="c3 c4"
+        className="c3"
         onClick={[Function]}
       >
         <div
-          className="c5"
+          className="c4"
         >
           <img
-            className="c9"
+            className="c8"
             src="diamond.png"
           />
         </div>
@@ -1497,14 +1633,14 @@ exports[`Storyshots GameBody is lost with two mines 1`] = `
       className="c2"
     >
       <span
-        className="c3 c4"
+        className="c3"
         onClick={[Function]}
       >
         <div
-          className="c5"
+          className="c4"
         >
           <img
-            className="c9"
+            className="c8"
             src="diamond.png"
           />
         </div>
@@ -1514,14 +1650,14 @@ exports[`Storyshots GameBody is lost with two mines 1`] = `
       className="c2"
     >
       <span
-        className="c3 c4"
+        className="c3"
         onClick={[Function]}
       >
         <div
-          className="c5"
+          className="c4"
         >
           <img
-            className="c9"
+            className="c8"
             src="diamond.png"
           />
         </div>
@@ -1531,14 +1667,14 @@ exports[`Storyshots GameBody is lost with two mines 1`] = `
       className="c2"
     >
       <span
-        className="c3 c4"
+        className="c3"
         onClick={[Function]}
       >
         <div
-          className="c5"
+          className="c4"
         >
           <img
-            className="c9"
+            className="c8"
             src="diamond.png"
           />
         </div>
@@ -1548,14 +1684,14 @@ exports[`Storyshots GameBody is lost with two mines 1`] = `
       className="c2"
     >
       <span
-        className="c3 c4"
+        className="c3"
         onClick={[Function]}
       >
         <div
-          className="c5"
+          className="c4"
         >
           <img
-            className="c9"
+            className="c8"
             src="diamond.png"
           />
         </div>
@@ -1565,14 +1701,14 @@ exports[`Storyshots GameBody is lost with two mines 1`] = `
       className="c2"
     >
       <span
-        className="c3 c4"
+        className="c3"
         onClick={[Function]}
       >
         <div
-          className="c5"
+          className="c4"
         >
           <img
-            className="c9"
+            className="c8"
             src="diamond.png"
           />
         </div>
@@ -1582,14 +1718,14 @@ exports[`Storyshots GameBody is lost with two mines 1`] = `
       className="c2"
     >
       <span
-        className="c3 c4"
+        className="c3"
         onClick={[Function]}
       >
         <div
-          className="c5"
+          className="c4"
         >
           <img
-            className="c9"
+            className="c8"
             src="diamond.png"
           />
         </div>
@@ -1599,14 +1735,14 @@ exports[`Storyshots GameBody is lost with two mines 1`] = `
       className="c2"
     >
       <span
-        className="c3 c4"
+        className="c3"
         onClick={[Function]}
       >
         <div
-          className="c5"
+          className="c4"
         >
           <img
-            className="c9"
+            className="c8"
             src="diamond.png"
           />
         </div>
@@ -1616,14 +1752,14 @@ exports[`Storyshots GameBody is lost with two mines 1`] = `
       className="c2"
     >
       <span
-        className="c3 c4"
+        className="c3"
         onClick={[Function]}
       >
         <div
-          className="c5"
+          className="c4"
         >
           <img
-            className="c9"
+            className="c8"
             src="diamond.png"
           />
         </div>
@@ -1633,14 +1769,14 @@ exports[`Storyshots GameBody is lost with two mines 1`] = `
       className="c2"
     >
       <span
-        className="c3 c4"
+        className="c3"
         onClick={[Function]}
       >
         <div
-          className="c5"
+          className="c4"
         >
           <img
-            className="c9"
+            className="c8"
             src="diamond.png"
           />
         </div>
@@ -1650,14 +1786,14 @@ exports[`Storyshots GameBody is lost with two mines 1`] = `
       className="c2"
     >
       <span
-        className="c3 c4"
+        className="c3"
         onClick={[Function]}
       >
         <div
-          className="c5"
+          className="c4"
         >
           <img
-            className="c9"
+            className="c8"
             src="diamond.png"
           />
         </div>
@@ -1667,14 +1803,14 @@ exports[`Storyshots GameBody is lost with two mines 1`] = `
       className="c2"
     >
       <span
-        className="c3 c4"
+        className="c3"
         onClick={[Function]}
       >
         <div
-          className="c5"
+          className="c4"
         >
           <img
-            className="c9"
+            className="c8"
             src="diamond.png"
           />
         </div>
@@ -1684,14 +1820,14 @@ exports[`Storyshots GameBody is lost with two mines 1`] = `
       className="c2"
     >
       <span
-        className="c3 c4"
+        className="c3"
         onClick={[Function]}
       >
         <div
-          className="c5"
+          className="c4"
         >
           <img
-            className="c9"
+            className="c8"
             src="diamond.png"
           />
         </div>
@@ -1701,14 +1837,14 @@ exports[`Storyshots GameBody is lost with two mines 1`] = `
       className="c2"
     >
       <span
-        className="c3 c4"
+        className="c3"
         onClick={[Function]}
       >
         <div
-          className="c5"
+          className="c4"
         >
           <img
-            className="c9"
+            className="c8"
             src="diamond.png"
           />
         </div>
@@ -1718,14 +1854,14 @@ exports[`Storyshots GameBody is lost with two mines 1`] = `
       className="c2"
     >
       <span
-        className="c3 c4"
+        className="c3"
         onClick={[Function]}
       >
         <div
-          className="c5"
+          className="c4"
         >
           <img
-            className="c9"
+            className="c8"
             src="diamond.png"
           />
         </div>
@@ -1735,14 +1871,14 @@ exports[`Storyshots GameBody is lost with two mines 1`] = `
       className="c2"
     >
       <span
-        className="c3 c4"
+        className="c3"
         onClick={[Function]}
       >
         <div
-          className="c5"
+          className="c4"
         >
           <img
-            className="c9"
+            className="c8"
             src="diamond.png"
           />
         </div>
@@ -1752,14 +1888,14 @@ exports[`Storyshots GameBody is lost with two mines 1`] = `
       className="c2"
     >
       <span
-        className="c3 c4"
+        className="c3"
         onClick={[Function]}
       >
         <div
-          className="c5"
+          className="c4"
         >
           <img
-            className="c9"
+            className="c8"
             src="diamond.png"
           />
         </div>
@@ -1769,14 +1905,14 @@ exports[`Storyshots GameBody is lost with two mines 1`] = `
       className="c2"
     >
       <span
-        className="c3 c4"
+        className="c3"
         onClick={[Function]}
       >
         <div
-          className="c5"
+          className="c4"
         >
           <img
-            className="c9"
+            className="c8"
             src="diamond.png"
           />
         </div>
@@ -1786,8 +1922,32 @@ exports[`Storyshots GameBody is lost with two mines 1`] = `
 </div>
 `;
 
-exports[`Storyshots GameBody is win with two mines 1`] = `
-.c4 {
+exports[`Storyshots Game is win with two mines 1`] = `
+.c2 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-grow: 1;
+  -ms-flex-grow: 1;
+  flex-grow: 1;
+  min-width: 15%;
+  height: 100px;
+  margin: 6px;
+}
+
+.c3 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1795,9 +1955,9 @@ exports[`Storyshots GameBody is win with two mines 1`] = `
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
+  -webkit-align-self: stretch;
+  -ms-flex-item-align: stretch;
+  align-self: stretch;
   border-radius: 10px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
@@ -1807,73 +1967,54 @@ exports[`Storyshots GameBody is win with two mines 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  background-color: #D2D6E6;
 }
 
-.c2 {
+.c5 {
+  max-width: 80%;
+  max-height: 70%;
+  opacity: 1;
+  -webkit-animation: dJeCOu 2s;
+  animation: dJeCOu 2s;
+}
+
+.c8 {
+  max-width: 60%;
+  max-height: 50%;
+  opacity: 0.6;
+  -webkit-animation: dJeCOu 2s;
+  animation: dJeCOu 2s;
+}
+
+.c7 {
+  background-image: url(blink.png);
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   width: 100px;
   height: 100px;
-  padding: 10px;
-  background-color: #E2E4F0;
-}
-
-.c3 {
-  padding: 18px;
-  background-color: #D2D6E6;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  background-size: cover;
+  -webkit-animation: jdUSDT 1s steps(23);
+  animation: jdUSDT 1s steps(23);
 }
 
 .c6 {
-  max-width: 100%;
-  max-height: 90%;
-  opacity: 1;
-  -webkit-animation: dJeCOu 2s;
-  animation: dJeCOu 2s;
-}
-
-.c9 {
-  max-width: 80%;
-  max-height: 70%;
-  opacity: 0.6;
-  -webkit-animation: dJeCOu 2s;
-  animation: dJeCOu 2s;
-}
-
-.c8 {
-  background-image: url(blink.png);
-  width: 90%;
-  height: 90%;
-  background-size: cover;
-  -webkit-animation: gCbXbQ 1s steps(8);
-  animation: gCbXbQ 1s steps(8);
-  position: absolute;
-}
-
-.c7 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
-  width: 14em;
-  height: 14em;
-  -webkit-animation: kKMSIs 0s ease-in 1s forwards;
-  animation: kKMSIs 0s ease-in 1s forwards;
-  position: absolute;
-}
-
-.c5 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -1882,6 +2023,36 @@ exports[`Storyshots GameBody is win with two mines 1`] = `
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-animation: kKMSIs 0s ease-in 1s forwards;
+  animation: kKMSIs 0s ease-in 1s forwards;
+  position: absolute;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .c1 {
@@ -1892,14 +2063,9 @@ exports[`Storyshots GameBody is win with two mines 1`] = `
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
-  padding: 1em 0;
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  -webkit-box-pack: space-between;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: space-between;
-  justify-content: space-between;
   background-color: #E2E4F0;
 }
 
@@ -1911,7 +2077,6 @@ exports[`Storyshots GameBody is win with two mines 1`] = `
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
-  width: 620px;
 }
 
 <div
@@ -1924,21 +2089,21 @@ exports[`Storyshots GameBody is win with two mines 1`] = `
       className="c2"
     >
       <span
-        className="c3 c4"
+        className="c3"
         onClick={[Function]}
       >
         <div
-          className="c5"
+          className="c4"
         >
           <img
-            className="c6"
+            className="c5"
             src="diamond.png"
           />
           <div
-            className="c7"
+            className="c6"
           >
             <div
-              className="c8"
+              className="c7"
             />
           </div>
         </div>
@@ -1948,14 +2113,14 @@ exports[`Storyshots GameBody is win with two mines 1`] = `
       className="c2"
     >
       <span
-        className="c3 c4"
+        className="c3"
         onClick={[Function]}
       >
         <div
-          className="c5"
+          className="c4"
         >
           <img
-            className="c9"
+            className="c8"
             src="mine.png"
           />
         </div>
@@ -1965,14 +2130,14 @@ exports[`Storyshots GameBody is win with two mines 1`] = `
       className="c2"
     >
       <span
-        className="c3 c4"
+        className="c3"
         onClick={[Function]}
       >
         <div
-          className="c5"
+          className="c4"
         >
           <img
-            className="c9"
+            className="c8"
             src="mine.png"
           />
         </div>
@@ -1982,14 +2147,14 @@ exports[`Storyshots GameBody is win with two mines 1`] = `
       className="c2"
     >
       <span
-        className="c3 c4"
+        className="c3"
         onClick={[Function]}
       >
         <div
-          className="c5"
+          className="c4"
         >
           <img
-            className="c9"
+            className="c8"
             src="diamond.png"
           />
         </div>
@@ -1999,14 +2164,14 @@ exports[`Storyshots GameBody is win with two mines 1`] = `
       className="c2"
     >
       <span
-        className="c3 c4"
+        className="c3"
         onClick={[Function]}
       >
         <div
-          className="c5"
+          className="c4"
         >
           <img
-            className="c9"
+            className="c8"
             src="diamond.png"
           />
         </div>
@@ -2016,14 +2181,14 @@ exports[`Storyshots GameBody is win with two mines 1`] = `
       className="c2"
     >
       <span
-        className="c3 c4"
+        className="c3"
         onClick={[Function]}
       >
         <div
-          className="c5"
+          className="c4"
         >
           <img
-            className="c9"
+            className="c8"
             src="diamond.png"
           />
         </div>
@@ -2033,14 +2198,14 @@ exports[`Storyshots GameBody is win with two mines 1`] = `
       className="c2"
     >
       <span
-        className="c3 c4"
+        className="c3"
         onClick={[Function]}
       >
         <div
-          className="c5"
+          className="c4"
         >
           <img
-            className="c9"
+            className="c8"
             src="diamond.png"
           />
         </div>
@@ -2050,14 +2215,14 @@ exports[`Storyshots GameBody is win with two mines 1`] = `
       className="c2"
     >
       <span
-        className="c3 c4"
+        className="c3"
         onClick={[Function]}
       >
         <div
-          className="c5"
+          className="c4"
         >
           <img
-            className="c9"
+            className="c8"
             src="diamond.png"
           />
         </div>
@@ -2067,14 +2232,14 @@ exports[`Storyshots GameBody is win with two mines 1`] = `
       className="c2"
     >
       <span
-        className="c3 c4"
+        className="c3"
         onClick={[Function]}
       >
         <div
-          className="c5"
+          className="c4"
         >
           <img
-            className="c9"
+            className="c8"
             src="diamond.png"
           />
         </div>
@@ -2084,14 +2249,14 @@ exports[`Storyshots GameBody is win with two mines 1`] = `
       className="c2"
     >
       <span
-        className="c3 c4"
+        className="c3"
         onClick={[Function]}
       >
         <div
-          className="c5"
+          className="c4"
         >
           <img
-            className="c9"
+            className="c8"
             src="diamond.png"
           />
         </div>
@@ -2101,14 +2266,14 @@ exports[`Storyshots GameBody is win with two mines 1`] = `
       className="c2"
     >
       <span
-        className="c3 c4"
+        className="c3"
         onClick={[Function]}
       >
         <div
-          className="c5"
+          className="c4"
         >
           <img
-            className="c9"
+            className="c8"
             src="diamond.png"
           />
         </div>
@@ -2118,14 +2283,14 @@ exports[`Storyshots GameBody is win with two mines 1`] = `
       className="c2"
     >
       <span
-        className="c3 c4"
+        className="c3"
         onClick={[Function]}
       >
         <div
-          className="c5"
+          className="c4"
         >
           <img
-            className="c9"
+            className="c8"
             src="diamond.png"
           />
         </div>
@@ -2135,14 +2300,14 @@ exports[`Storyshots GameBody is win with two mines 1`] = `
       className="c2"
     >
       <span
-        className="c3 c4"
+        className="c3"
         onClick={[Function]}
       >
         <div
-          className="c5"
+          className="c4"
         >
           <img
-            className="c9"
+            className="c8"
             src="diamond.png"
           />
         </div>
@@ -2152,14 +2317,14 @@ exports[`Storyshots GameBody is win with two mines 1`] = `
       className="c2"
     >
       <span
-        className="c3 c4"
+        className="c3"
         onClick={[Function]}
       >
         <div
-          className="c5"
+          className="c4"
         >
           <img
-            className="c9"
+            className="c8"
             src="diamond.png"
           />
         </div>
@@ -2169,14 +2334,14 @@ exports[`Storyshots GameBody is win with two mines 1`] = `
       className="c2"
     >
       <span
-        className="c3 c4"
+        className="c3"
         onClick={[Function]}
       >
         <div
-          className="c5"
+          className="c4"
         >
           <img
-            className="c9"
+            className="c8"
             src="diamond.png"
           />
         </div>
@@ -2186,14 +2351,14 @@ exports[`Storyshots GameBody is win with two mines 1`] = `
       className="c2"
     >
       <span
-        className="c3 c4"
+        className="c3"
         onClick={[Function]}
       >
         <div
-          className="c5"
+          className="c4"
         >
           <img
-            className="c9"
+            className="c8"
             src="diamond.png"
           />
         </div>
@@ -2203,14 +2368,14 @@ exports[`Storyshots GameBody is win with two mines 1`] = `
       className="c2"
     >
       <span
-        className="c3 c4"
+        className="c3"
         onClick={[Function]}
       >
         <div
-          className="c5"
+          className="c4"
         >
           <img
-            className="c9"
+            className="c8"
             src="diamond.png"
           />
         </div>
@@ -2220,14 +2385,14 @@ exports[`Storyshots GameBody is win with two mines 1`] = `
       className="c2"
     >
       <span
-        className="c3 c4"
+        className="c3"
         onClick={[Function]}
       >
         <div
-          className="c5"
+          className="c4"
         >
           <img
-            className="c9"
+            className="c8"
             src="diamond.png"
           />
         </div>
@@ -2237,14 +2402,14 @@ exports[`Storyshots GameBody is win with two mines 1`] = `
       className="c2"
     >
       <span
-        className="c3 c4"
+        className="c3"
         onClick={[Function]}
       >
         <div
-          className="c5"
+          className="c4"
         >
           <img
-            className="c9"
+            className="c8"
             src="diamond.png"
           />
         </div>
@@ -2254,14 +2419,14 @@ exports[`Storyshots GameBody is win with two mines 1`] = `
       className="c2"
     >
       <span
-        className="c3 c4"
+        className="c3"
         onClick={[Function]}
       >
         <div
-          className="c5"
+          className="c4"
         >
           <img
-            className="c9"
+            className="c8"
             src="diamond.png"
           />
         </div>
@@ -2271,14 +2436,14 @@ exports[`Storyshots GameBody is win with two mines 1`] = `
       className="c2"
     >
       <span
-        className="c3 c4"
+        className="c3"
         onClick={[Function]}
       >
         <div
-          className="c5"
+          className="c4"
         >
           <img
-            className="c9"
+            className="c8"
             src="diamond.png"
           />
         </div>
@@ -2288,14 +2453,14 @@ exports[`Storyshots GameBody is win with two mines 1`] = `
       className="c2"
     >
       <span
-        className="c3 c4"
+        className="c3"
         onClick={[Function]}
       >
         <div
-          className="c5"
+          className="c4"
         >
           <img
-            className="c9"
+            className="c8"
             src="diamond.png"
           />
         </div>
@@ -2305,14 +2470,14 @@ exports[`Storyshots GameBody is win with two mines 1`] = `
       className="c2"
     >
       <span
-        className="c3 c4"
+        className="c3"
         onClick={[Function]}
       >
         <div
-          className="c5"
+          className="c4"
         >
           <img
-            className="c9"
+            className="c8"
             src="diamond.png"
           />
         </div>
@@ -2322,14 +2487,14 @@ exports[`Storyshots GameBody is win with two mines 1`] = `
       className="c2"
     >
       <span
-        className="c3 c4"
+        className="c3"
         onClick={[Function]}
       >
         <div
-          className="c5"
+          className="c4"
         >
           <img
-            className="c9"
+            className="c8"
             src="diamond.png"
           />
         </div>
@@ -2339,14 +2504,14 @@ exports[`Storyshots GameBody is win with two mines 1`] = `
       className="c2"
     >
       <span
-        className="c3 c4"
+        className="c3"
         onClick={[Function]}
       >
         <div
-          className="c5"
+          className="c4"
         >
           <img
-            className="c9"
+            className="c8"
             src="diamond.png"
           />
         </div>

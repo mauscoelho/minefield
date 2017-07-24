@@ -16,7 +16,7 @@ export const Colors = {
   },
   Game: {
     leftBackground: `#fff`,
-    rightBackground: `#D2D6E6`,
+    rightBackground: `#E2E4F0`,
   },
 };
 
@@ -26,23 +26,6 @@ export const H1Text = styled.h1`
     font-family: 'Proxima Nova';
     src: url(${proximaNova});
   }
-`;
-
-export const ContainerCard = styled.span`
-  display: flex;
-  flex: 1;
-  flex-direction: column;
-  border-radius: 10px;
-  justify-content: center;
-  align-items: center;
-`;
-
-export const ContainerCardOutside = styled.div`
-  display: flex;
-  width: 100px;
-  height: 100px;
-  padding: 10px;
-  background-color: ${Colors.Card.background};
 `;
 
 export const pulseAnimation = keyframes`
@@ -62,11 +45,11 @@ to {
 `;
 
 export const blinkAnimation = keyframes`
-100% { background-position: -6440px; }
+100% { background-position: -6900px; }
 `;
 
 export const burstAnimation = keyframes`
-100% { background-position: -19716px; }
+100% { background-position: -23960px; }
 `;
 
 export const revealAnimation = keyframes`

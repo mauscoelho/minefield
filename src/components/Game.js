@@ -1,33 +1,30 @@
 import React from 'react';
 import styled from 'styled-components';
+import propTypes from 'prop-types';
 import { Colors } from '../styles';
+import CardContainer from '../containers/CardContainer';
 
-const GameContainer = styled.div`
+const Container = styled.div`
   display: flex;
   flex: 1;
-  height: 100%;
-  border-radius: 1em;
-  box-shadow: 0 8px 40px 0 rgba(15, 43, 97, 0.08);
+  flex-wrap: wrap;
+  background-color: ${Colors.Card.background};
 `;
 
-const RighContainer = styled.div`
-  display: flex;
-  flex: 5;
-  background-color: ${Colors.Game.rightBackground};
-  border-radius: 0 1em 1em 0;
-`;
+const renderCards = cards =>
+  cards.map(card => <CardContainer key={card.id} card={card} />);
 
-const LeftContainer = styled.div`
-  display: flex;
-  flex: 2;
-  background-color: ${Colors.Game.leftBackground};
-  border-radius: 1em 0 0 1em;
-`;
+const Game = ({ cards }) =>
+  <Container>
+    {renderCards(cards)}
+  </Container>;
 
-const Game = () =>
-  <GameContainer>
-    <LeftContainer />
-    <RighContainer />
-  </GameContainer>;
+Game.propTypes = {
+  cards: propTypes.arrayOf(propTypes.object),
+};
+
+Game.defaultProps = {
+  cards: [],
+};
 
 export default Game;
