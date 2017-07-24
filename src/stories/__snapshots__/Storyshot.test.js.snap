@@ -24,18 +24,22 @@ exports[`Storyshots Card is loss and half revealed with diamond 1`] = `
 }
 
 .c1 {
+  -webkit-flex-grow: 1;
+  -ms-flex-grow: 1;
+  flex-grow: 1;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  width: 100px;
-  height: 100px;
-  padding: 10px;
+  width: 15%;
+  height: 15%;
+  min-height: 100px;
+  min-width: 100px;
+  padding: 6px;
   background-color: #E2E4F0;
 }
 
 .c2 {
-  padding: 18px;
   background-color: #D2D6E6;
 }
 
@@ -124,18 +128,22 @@ exports[`Storyshots Card is loss and half revealed with mine 1`] = `
 }
 
 .c1 {
+  -webkit-flex-grow: 1;
+  -ms-flex-grow: 1;
+  flex-grow: 1;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  width: 100px;
-  height: 100px;
-  padding: 10px;
+  width: 15%;
+  height: 15%;
+  min-height: 100px;
+  min-width: 100px;
+  padding: 6px;
   background-color: #E2E4F0;
 }
 
 .c2 {
-  padding: 18px;
   background-color: #D2D6E6;
 }
 
@@ -224,18 +232,22 @@ exports[`Storyshots Card not revealed 1`] = `
 }
 
 .c1 {
+  -webkit-flex-grow: 1;
+  -ms-flex-grow: 1;
+  flex-grow: 1;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  width: 100px;
-  height: 100px;
-  padding: 10px;
+  width: 15%;
+  height: 15%;
+  min-height: 100px;
+  min-width: 100px;
+  padding: 6px;
   background-color: #E2E4F0;
 }
 
 .c2 {
-  padding: 18px;
   background-color: #FFFFFF;
 }
 
@@ -289,18 +301,22 @@ exports[`Storyshots Card revealed with diamond 1`] = `
 }
 
 .c1 {
+  -webkit-flex-grow: 1;
+  -ms-flex-grow: 1;
+  flex-grow: 1;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  width: 100px;
-  height: 100px;
-  padding: 10px;
+  width: 15%;
+  height: 15%;
+  min-height: 100px;
+  min-width: 100px;
+  padding: 6px;
   background-color: #E2E4F0;
 }
 
 .c2 {
-  padding: 18px;
   background-color: #D2D6E6;
 }
 
@@ -421,18 +437,22 @@ exports[`Storyshots Card revealed with mine 1`] = `
 }
 
 .c1 {
+  -webkit-flex-grow: 1;
+  -ms-flex-grow: 1;
+  flex-grow: 1;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  width: 100px;
-  height: 100px;
-  padding: 10px;
+  width: 15%;
+  height: 15%;
+  min-height: 100px;
+  min-width: 100px;
+  padding: 6px;
   background-color: #E2E4F0;
 }
 
 .c2 {
-  padding: 18px;
   background-color: #D2D6E6;
 }
 
@@ -553,18 +573,22 @@ exports[`Storyshots CardContainer fetching false with custom props revealed with
 }
 
 .c1 {
+  -webkit-flex-grow: 1;
+  -ms-flex-grow: 1;
+  flex-grow: 1;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  width: 100px;
-  height: 100px;
-  padding: 10px;
+  width: 15%;
+  height: 15%;
+  min-height: 100px;
+  min-width: 100px;
+  padding: 6px;
   background-color: #E2E4F0;
 }
 
 .c2 {
-  padding: 18px;
   background-color: #D2D6E6;
 }
 
@@ -685,18 +709,22 @@ exports[`Storyshots CardContainer fetching false with custom props revealed with
 }
 
 .c1 {
+  -webkit-flex-grow: 1;
+  -ms-flex-grow: 1;
+  flex-grow: 1;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  width: 100px;
-  height: 100px;
-  padding: 10px;
+  width: 15%;
+  height: 15%;
+  min-height: 100px;
+  min-width: 100px;
+  padding: 6px;
   background-color: #E2E4F0;
 }
 
 .c2 {
-  padding: 18px;
   background-color: #D2D6E6;
 }
 
@@ -817,18 +845,22 @@ exports[`Storyshots CardContainer fetching true (clickable) 1`] = `
 }
 
 .c1 {
+  -webkit-flex-grow: 1;
+  -ms-flex-grow: 1;
+  flex-grow: 1;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  width: 100px;
-  height: 100px;
-  padding: 10px;
+  width: 15%;
+  height: 15%;
+  min-height: 100px;
+  min-width: 100px;
+  padding: 6px;
   background-color: #E2E4F0;
 }
 
 .c2 {
-  padding: 18px;
   background-color: #FFFFFF;
 }
 
@@ -882,13 +914,18 @@ exports[`Storyshots FetchingCard fetching 1`] = `
 }
 
 .c1 {
+  -webkit-flex-grow: 1;
+  -ms-flex-grow: 1;
+  flex-grow: 1;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  width: 100px;
-  height: 100px;
-  padding: 10px;
+  width: 15%;
+  height: 15%;
+  min-height: 100px;
+  min-width: 100px;
+  padding: 6px;
   background-color: #E2E4F0;
 }
 
@@ -961,18 +998,22 @@ exports[`Storyshots Game all items not revealed (clickable) 1`] = `
 }
 
 .c2 {
+  -webkit-flex-grow: 1;
+  -ms-flex-grow: 1;
+  flex-grow: 1;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  width: 100px;
-  height: 100px;
-  padding: 10px;
+  width: 15%;
+  height: 15%;
+  min-height: 100px;
+  min-width: 100px;
+  padding: 6px;
   background-color: #E2E4F0;
 }
 
 .c3 {
-  padding: 18px;
   background-color: #FFFFFF;
 }
 
@@ -984,14 +1025,10 @@ exports[`Storyshots Game all items not revealed (clickable) 1`] = `
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
-  padding: 1em 0;
+  width: 100%;
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  -webkit-box-pack: space-between;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: space-between;
-  justify-content: space-between;
   background-color: #E2E4F0;
 }
 
@@ -1240,18 +1277,22 @@ exports[`Storyshots Game is lost with two mines 1`] = `
 }
 
 .c2 {
+  -webkit-flex-grow: 1;
+  -ms-flex-grow: 1;
+  flex-grow: 1;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  width: 100px;
-  height: 100px;
-  padding: 10px;
+  width: 15%;
+  height: 15%;
+  min-height: 100px;
+  min-width: 100px;
+  padding: 6px;
   background-color: #E2E4F0;
 }
 
 .c3 {
-  padding: 18px;
   background-color: #D2D6E6;
 }
 
@@ -1322,14 +1363,10 @@ exports[`Storyshots Game is lost with two mines 1`] = `
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
-  padding: 1em 0;
+  width: 100%;
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  -webkit-box-pack: space-between;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: space-between;
-  justify-content: space-between;
   background-color: #E2E4F0;
 }
 
@@ -1810,18 +1847,22 @@ exports[`Storyshots Game is win with two mines 1`] = `
 }
 
 .c2 {
+  -webkit-flex-grow: 1;
+  -ms-flex-grow: 1;
+  flex-grow: 1;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  width: 100px;
-  height: 100px;
-  padding: 10px;
+  width: 15%;
+  height: 15%;
+  min-height: 100px;
+  min-width: 100px;
+  padding: 6px;
   background-color: #E2E4F0;
 }
 
 .c3 {
-  padding: 18px;
   background-color: #D2D6E6;
 }
 
@@ -1892,14 +1933,10 @@ exports[`Storyshots Game is win with two mines 1`] = `
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
-  padding: 1em 0;
+  width: 100%;
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  -webkit-box-pack: space-between;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: space-between;
-  justify-content: space-between;
   background-color: #E2E4F0;
 }
 
