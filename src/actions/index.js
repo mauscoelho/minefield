@@ -1,8 +1,13 @@
-import { CARD_REVEAL } from '../constants';
+import { CARD_REVEAL, EVENT_CARD_CLICK } from '../constants';
 
 const revealAction = args => ({
   type: CARD_REVEAL,
   payload: args,
 });
 
-export default revealAction;
+const cardClickAction = args => ({
+  type: EVENT_CARD_CLICK,
+  payload: args,
+});
+
+export { revealAction, cardClickAction };
