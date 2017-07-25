@@ -15,7 +15,15 @@ const Container = styled.div`
 `;
 
 const renderCards = cards =>
-  cards.map(card => <CardContainer key={card.id} card={card} />);
+  cards.map(card =>
+    <CardContainer
+      key={card.id}
+      id={card.id}
+      isRevealed={card.isRevealed}
+      isMine={card.isMine}
+      halfRevealed={card.halfRevealed}
+    />,
+  );
 
 const Game = ({ cards }) =>
   <Container>
