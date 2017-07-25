@@ -1,5 +1,5 @@
 import { compose, createStore } from 'redux';
-import reducers from './configureReducer';
+import reducers from '../reducers';
 
 // eslint-disable-next-line
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
