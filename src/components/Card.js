@@ -89,39 +89,32 @@ const AnimatedBlink = styled.div`
   align-items: center;
 `;
 
-const Card = ({ card, onClick }) =>
+const Card = ({ isRevealed, isMine, halfRevealed, onClick }) =>
   <ContainerCardOutside>
-    <Container isRevealed={card.isRevealed} onClick={onClick}>
-      {card.isRevealed &&
+    <Container isRevealed={isRevealed} onClick={onClick}>
+      {isRevealed &&
         <AnimatedBlink>
-          <Icon
-            src={card.isMine ? mine : diamont}
-            halfRevealed={card.halfRevealed}
-          />
-          {!card.halfRevealed &&
+          <Icon src={isMine ? mine : diamont} halfRevealed={halfRevealed} />
+          {!halfRevealed &&
             <HideContainer>
-              {!card.isMine && <Blink />}
-              {card.isMine && <Burst />}
+              {!isMine && <Blink />}
+              {isMine && <Burst />}
             </HideContainer>}
         </AnimatedBlink>}
     </Container>
   </ContainerCardOutside>;
 
 Card.propTypes = {
-  card: propTypes.shape({
-    isRevealed: propTypes.bool.isRequired,
-    isMine: propTypes.bool.isRequired,
-    halfRevealed: propTypes.bool.isRequired,
-  }),
+  isRevealed: propTypes.bool.isRequired,
+  isMine: propTypes.bool.isRequired,
+  halfRevealed: propTypes.bool.isRequired,
   onClick: propTypes.func.isRequired,
 };
 
 Card.defaultProps = {
-  card: {
-    isRevealed: false,
-    isMine: false,
-    halfRevealed: false,
-  },
+  isRevealed: false,
+  isMine: false,
+  halfRevealed: false,
 };
 
 export default Card;

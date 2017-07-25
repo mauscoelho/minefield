@@ -604,84 +604,7 @@ exports[`Storyshots CardContainer fetching false with custom props revealed with
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: #D2D6E6;
-}
-
-.c4 {
-  max-width: 80%;
-  max-height: 70%;
-  opacity: 1;
-  -webkit-animation: dJeCOu 2s;
-  animation: dJeCOu 2s;
-}
-
-.c6 {
-  background-image: url(blink.png);
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  width: 100px;
-  height: 100px;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-align-self: center;
-  -ms-flex-item-align: center;
-  align-self: center;
-  background-size: cover;
-  -webkit-animation: jdUSDT 1s steps(23);
-  animation: jdUSDT 1s steps(23);
-}
-
-.c5 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
-  -webkit-animation: kKMSIs 0s ease-in 1s forwards;
-  animation: kKMSIs 0s ease-in 1s forwards;
-  position: absolute;
-}
-
-.c3 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
-  width: 100px;
-  height: 100px;
-  border-radius: 10px;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-align-self: center;
-  -ms-flex-item-align: center;
-  align-self: center;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+  background-color: #FFFFFF;
 }
 
 .c0 {
@@ -705,23 +628,7 @@ exports[`Storyshots CardContainer fetching false with custom props revealed with
     <span
       className="c2"
       onClick={[Function]}
-    >
-      <div
-        className="c3"
-      >
-        <img
-          className="c4"
-          src="diamond.png"
-        />
-        <div
-          className="c5"
-        >
-          <div
-            className="c6"
-          />
-        </div>
-      </div>
-    </span>
+    />
   </div>
 </div>
 `;
@@ -771,85 +678,7 @@ exports[`Storyshots CardContainer fetching false with custom props revealed with
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: #D2D6E6;
-}
-
-.c4 {
-  max-width: 80%;
-  max-height: 70%;
-  opacity: 1;
-  -webkit-animation: dJeCOu 2s;
-  animation: dJeCOu 2s;
-}
-
-.c6 {
-  background-image: url(burst.png);
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  width: 200px;
-  height: 200px;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-align-self: center;
-  -ms-flex-item-align: center;
-  align-self: center;
-  background-size: cover;
-  background-size: cover;
-  -webkit-animation: kvgzel 6s steps(40);
-  animation: kvgzel 6s steps(40);
-}
-
-.c5 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
-  -webkit-animation: kKMSIs 0s ease-in 1s forwards;
-  animation: kKMSIs 0s ease-in 1s forwards;
-  position: absolute;
-}
-
-.c3 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
-  width: 100px;
-  height: 100px;
-  border-radius: 10px;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-align-self: center;
-  -ms-flex-item-align: center;
-  align-self: center;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+  background-color: #FFFFFF;
 }
 
 .c0 {
@@ -873,23 +702,7 @@ exports[`Storyshots CardContainer fetching false with custom props revealed with
     <span
       className="c2"
       onClick={[Function]}
-    >
-      <div
-        className="c3"
-      >
-        <img
-          className="c4"
-          src="mine.png"
-        />
-        <div
-          className="c5"
-        >
-          <div
-            className="c6"
-          />
-        </div>
-      </div>
-    </span>
+    />
   </div>
 </div>
 `;

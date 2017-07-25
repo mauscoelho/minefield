@@ -18,10 +18,10 @@ const mapDispatchToProps = dispatch => ({
   },
 });
 
-const onClickCard = ({ setFetching, card, revealHandler }) => () => {
-  if (!card.isRevealed) {
+const onClickCard = ({ setFetching, isRevealed, id, revealHandler }) => () => {
+  if (!isRevealed) {
     setFetching(true);
-    revealHandler({ id: card.id });
+    revealHandler({ id });
     setFetching(false);
   }
 };
