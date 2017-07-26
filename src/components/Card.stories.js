@@ -6,8 +6,6 @@ import React from 'react';
 import Card from './Card';
 
 const Container = styled.div`
-  padding: 0;
-  margin: 0;
   list-style: none;
   display: -webkit-box;
   display: -moz-box;
@@ -15,11 +13,31 @@ const Container = styled.div`
   display: -webkit-flex;
   display: flex;
   justify-content: space-around;
+  flex: 1;
+  flex-wrap: wrap;
 `;
 
 storiesOf(`Card`, module)
   .add(`revealed with diamond`, () =>
     <Container>
+      <Card
+        onClick={action(`card clicked`)}
+        isRevealed
+        isMine={false}
+        halfRevealed={false}
+      />
+      <Card
+        onClick={action(`card clicked`)}
+        isRevealed
+        isMine={false}
+        halfRevealed={false}
+      />
+      <Card
+        onClick={action(`card clicked`)}
+        isRevealed
+        isMine={false}
+        halfRevealed={false}
+      />
       <Card
         onClick={action(`card clicked`)}
         isRevealed
@@ -85,5 +103,9 @@ storiesOf(`Card`, module)
     </Container>,
   )
   .add(`is loss and half revealed with mine`, () =>
-    <Card onClick={action(`card clicked`)} isRevealed isMine halfRevealed />,
+    <Container>
+      <Card onClick={action(`card clicked`)} isRevealed isMine halfRevealed />
+      <Card onClick={action(`card clicked`)} isRevealed isMine halfRevealed />
+      <Card onClick={action(`card clicked`)} isRevealed isMine halfRevealed />
+    </Container>,
   );

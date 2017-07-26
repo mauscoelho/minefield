@@ -6,15 +6,16 @@ import mine from '../images/mine.png';
 import { Colors, revealAnimation, hideAnimation } from '../styles';
 import BlinkAnimation from './BlinkAnimation';
 
-const ResponsiveContainer = styled.span`
-  background: tomato;
+const Container = styled.div`
+  display: flex;
+  flex: 1 0 20%;
+`;
+
+const ResponsiveContainer = styled.div`
   margin: 5px;
-  flex: 1 0 auto;
-  height: auto;
-  background-color: ${props =>
-    props.isRevealed
-      ? Colors.Card.revealedBackground
-      : Colors.Card.notRevealedBackground};
+  display: flex;
+  flex: 1 0 20%;
+  background-color: ${Colors.Card.revealedBackground};
 
   &::before {
     content: '';
@@ -34,7 +35,7 @@ const Icon = styled.span`
   background-size: contain;
 `;
 
-const Container = styled.div`
+const AnimationContainer = styled.div`
   position: relative;
   display: flex;
   flex: 1;
@@ -54,15 +55,19 @@ const BlinkAutoHide = styled.div`
 `;
 
 const Card = ({ isRevealed, isMine, halfRevealed, onClick }) =>
-  <ResponsiveContainer isRevealed={isRevealed} onClick={onClick}>
-    <Container>
-      {isRevealed &&
-        <Icon src={isMine ? mine : diamont} halfRevealed={halfRevealed} />}
-      <BlinkAutoHide>
-        <BlinkAnimation />
-      </BlinkAutoHide>
-    </Container>
-  </ResponsiveContainer>;
+  <Container>
+    <ResponsiveContainer isRevealed={isRevealed} onClick={onClick}>
+      <AnimationContainer>
+        {isRevealed &&
+          <Icon src={isMine ? mine : diamont} halfRevealed={halfRevealed} />}
+        {isRevealed &&
+          !halfRevealed &&
+          <BlinkAutoHide>
+            <BlinkAnimation />
+          </BlinkAutoHide>}
+      </AnimationContainer>
+    </ResponsiveContainer>
+  </Container>;
 
 Card.propTypes = {
   isRevealed: propTypes.bool.isRequired,
