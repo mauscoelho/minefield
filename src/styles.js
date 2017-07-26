@@ -18,6 +18,9 @@ export const Colors = {
     leftBackground: `#fff`,
     rightBackground: `#E2E4F0`,
   },
+  FetchingAnimation: {
+    background: `#fff`,
+  },
 };
 
 export const H1Text = styled.h1`
@@ -26,14 +29,6 @@ export const H1Text = styled.h1`
     font-family: 'Proxima Nova';
     src: url(${proximaNova});
   }
-`;
-
-export const pulseAnimation = keyframes`
-0% { transform: scale(0.90); }
-25% { transform: scale(1.15); }
-50% { transform: scale(0.90); }
-75% { transform: scale(1.15); }
-100% { transform: scale(0.90); }
 `;
 
 export const hideAnimation = keyframes`

@@ -15,6 +15,7 @@ const ResponsiveContainer = styled.div`
   margin: 5px;
   display: flex;
   flex: 1 0 20%;
+  border-radius: 10px;
   background-color: ${Colors.Card.revealedBackground};
 
   &::before {
@@ -51,7 +52,7 @@ const BlinkAutoHide = styled.div`
   float: left;
   position: absolute;
   z-index: 1;
-  animation: ${hideAnimation} 0s ease-in 2s forwards;
+  animation: ${hideAnimation} 0s ease-in 1s forwards;
 `;
 
 const Card = ({ isRevealed, isMine, halfRevealed, onClick }) =>

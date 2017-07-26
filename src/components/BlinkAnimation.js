@@ -29,7 +29,7 @@ const Blink = styled.div`
   bottom: 0;
   background: url(${blink});
   background-size: 2400% 118%;
-  animation: ${blinkAnimation} 2s steps(22);
+  animation: ${blinkAnimation} 1s steps(22);
 `;
 
 const BlinkAnimation = () =>
