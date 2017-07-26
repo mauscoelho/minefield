@@ -1,17 +1,18 @@
 import React from 'react';
 import styled from 'styled-components';
 import propTypes from 'prop-types';
-import { Colors } from '../styles';
 import CardContainer from '../containers/CardContainer';
 
 const Container = styled.div`
+  list-style: none;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
+  justify-content: space-around;
   flex: 1;
   flex-wrap: wrap;
-  width: 35em;
-  flex: 0 0 35em;
-  height: 35em;
-  background-color: ${Colors.Card.background};
 `;
 
 const renderCards = cards =>

@@ -1,46 +1,44 @@
 import React from 'react';
 import styled from 'styled-components';
-import { pulseAnimation, Colors } from '../styles';
+import { Colors } from '../styles';
+import PulseAnimation from './PulseAnimation';
 
-const ContainerCardOutside = styled.div`
+const Container = styled.div`
   display: flex;
-  flex: 1;
-  align-items: center;
-  justify-content: center;
-  width: 100px;
-  flex: 0 0 100px;
-  height: 100px;
-  margin: 6px;
+  flex: 1 0 20%;
 `;
 
-const Container = styled.span`
+const ResponsiveContainer = styled.div`
+  margin: 5px;
   display: flex;
-  flex: 1;
-  align-self: stretch;
-  border-radius: 10px;
-  justify-content: center;
   align-items: center;
-  box-shadow: 0 0 1px 1px ${Colors.Card.revealedBackground};
+  justify-content: center;
+  border-radius: 10px;
+  flex: 1 0 20%;
   background-color: ${Colors.Card.revealedBackground};
+
+  &::before {
+    content: '';
+    float: left;
+    padding-top: 100%;
+  }
 `;
 
-const Pulse = styled.div`
+const AnimationContainer = styled.div`
+  position: relative;
   display: flex;
-  width: 100px;
-  height: 100px;
-  border-radius: 10px;
-  justify-content: center;
-  align-items: center;
-  align-self: center;
-  background-color: ${Colors.Card.notRevealedBackground};
-  animation: ${pulseAnimation} 2s infinite;
+  flex: 1;
+  height: 98%;
+  width: 90%;
 `;
 
 const FetchingCard = () =>
-  <ContainerCardOutside>
-    <Container>
-      <Pulse />
-    </Container>
-  </ContainerCardOutside>;
+  <Container>
+    <ResponsiveContainer>
+      <AnimationContainer>
+        <PulseAnimation />
+      </AnimationContainer>
+    </ResponsiveContainer>
+  </Container>;
 
 export default FetchingCard;
