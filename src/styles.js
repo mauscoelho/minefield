@@ -44,10 +44,6 @@ to {
   }
 `;
 
-export const blinkAnimation = keyframes`
-100% { background-position: -6900px; }
-`;
-
 export const burstAnimation = keyframes`
 100% { background-position: -23960px; }
 `;

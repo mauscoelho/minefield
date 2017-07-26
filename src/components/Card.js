@@ -3,106 +3,66 @@ import propTypes from 'prop-types';
 import styled from 'styled-components';
 import diamont from '../images/diamond.png';
 import mine from '../images/mine.png';
-import blink from '../images/blink.png';
-import burst from '../images/burst.png';
-import {
-  Colors,
-  revealAnimation,
-  blinkAnimation,
-  hideAnimation,
-  burstAnimation,
-} from '../styles';
+import { Colors, revealAnimation, hideAnimation } from '../styles';
+import BlinkAnimation from './BlinkAnimation';
 
-const ContainerCardOutside = styled.div`
-  flex: 1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100px;
-  flex: 0 0 100px;
-  height: 100px;
-  margin: 6px;
-`;
-
-const Container = styled.span`
-  display: flex;
-  flex: 1;
-  align-self: stretch;
-  border-radius: 10px;
-  justify-content: center;
-  align-items: center;
+const ResponsiveContainer = styled.span`
+  background: tomato;
+  margin: 5px;
+  flex: 1 0 auto;
+  height: auto;
   background-color: ${props =>
     props.isRevealed
       ? Colors.Card.revealedBackground
       : Colors.Card.notRevealedBackground};
+
+  &::before {
+    content: '';
+    float: left;
+    padding-top: 100%;
+  }
 `;
 
-const Icon = styled.img`
-  max-width: ${props => (props.halfRevealed ? `60%` : `80%`)};
-  max-height: ${props => (props.halfRevealed ? `50%` : `70%`)};
+const Icon = styled.span`
+  width: ${props => (props.halfRevealed ? `60%` : `80%`)};
+  height: ${props => (props.halfRevealed ? `50%` : `70%`)};
   opacity: ${props => (props.halfRevealed ? `0.6` : `1`)};
   animation: ${revealAnimation} 2s;
+  background-image: url(${props => props.src});
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 `;
 
-const Blink = styled.div`
-  background-image: url(${blink});
+const Container = styled.div`
+  position: relative;
   display: flex;
-  width: 100px;
-  height: 100px;
-  justify-content: center;
-  align-items: center;
-  align-self: center;
-  background-size: cover;
-  animation: ${blinkAnimation} 1s steps(23);
-`;
-
-const Burst = styled.div`
-  background-image: url(${burst});
-  display: flex;
-  width: 200px;
-  height: 200px;
-  justify-content: center;
-  align-items: center;
-  align-self: center;
-  background-size: cover;
-  background-size: cover;
-  animation: ${burstAnimation} 6s steps(40);
-`;
-
-const HideContainer = styled.div`
-  display: flex;
-  align-items: center;
-  justify-content: center;
   flex: 1;
-  animation: ${hideAnimation} 0s ease-in 1s forwards;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+`;
+
+const BlinkAutoHide = styled.div`
+  height: 100%;
+  width: 100%;
+  float: left;
   position: absolute;
-`;
-
-const AnimatedBlink = styled.div`
-  display: flex;
-  flex: 1;
-  width: 100px;
-  height: 100px;
-  border-radius: 10px;
-  justify-content: center;
-  align-self: center;
-  align-items: center;
+  z-index: 1;
+  animation: ${hideAnimation} 0s ease-in 2s forwards;
 `;
 
 const Card = ({ isRevealed, isMine, halfRevealed, onClick }) =>
-  <ContainerCardOutside>
-    <Container isRevealed={isRevealed} onClick={onClick}>
+  <ResponsiveContainer isRevealed={isRevealed} onClick={onClick}>
+    <Container>
       {isRevealed &&
-        <AnimatedBlink>
-          <Icon src={isMine ? mine : diamont} halfRevealed={halfRevealed} />
-          {!halfRevealed &&
-            <HideContainer>
-              {!isMine && <Blink />}
-              {isMine && <Burst />}
-            </HideContainer>}
-        </AnimatedBlink>}
+        <Icon src={isMine ? mine : diamont} halfRevealed={halfRevealed} />}
+      <BlinkAutoHide>
+        <BlinkAnimation />
+      </BlinkAutoHide>
     </Container>
-  </ContainerCardOutside>;
+  </ResponsiveContainer>;
 
 Card.propTypes = {
   isRevealed: propTypes.bool.isRequired,

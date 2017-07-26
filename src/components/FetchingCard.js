@@ -4,34 +4,28 @@ import { pulseAnimation, Colors } from '../styles';
 
 const ContainerCardOutside = styled.div`
   display: flex;
-  flex: 1;
   align-items: center;
   justify-content: center;
-  width: 100px;
-  flex: 0 0 100px;
-  height: 100px;
+  width: 20%;
   margin: 6px;
+  padding-top: 20%;
 `;
 
 const Container = styled.span`
   display: flex;
-  flex: 1;
-  align-self: stretch;
+  width: 90%;
   border-radius: 10px;
-  justify-content: center;
-  align-items: center;
   box-shadow: 0 0 1px 1px ${Colors.Card.revealedBackground};
   background-color: ${Colors.Card.revealedBackground};
+  background-color: black;
+  background-color: ${Colors.Card.notRevealedBackground};
+  animation: ${pulseAnimation} 2s infinite;
 `;
 
 const Pulse = styled.div`
-  display: flex;
-  width: 100px;
-  height: 100px;
+  width: 20%;
+  padding-top: 20%;
   border-radius: 10px;
-  justify-content: center;
-  align-items: center;
-  align-self: center;
   background-color: ${Colors.Card.notRevealedBackground};
   animation: ${pulseAnimation} 2s infinite;
 `;
