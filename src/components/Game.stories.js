@@ -28,14 +28,7 @@ storiesOf(`Game`, module)
       halfRevealed: false,
     });
     return <Game cards={cards} />;
-  });
-
-storiesOf(`Game`, module)
-  .addDecorator(getStory =>
-    <Provider store={store}>
-      {getStory()}
-    </Provider>,
-  )
+  })
   .add(`is lost with two mines`, () => {
     const cards = faker({
       isRevealed: true,
@@ -59,14 +52,7 @@ storiesOf(`Game`, module)
         <Game cards={cards} />
       </Container>
     );
-  });
-
-storiesOf(`Game`, module)
-  .addDecorator(getStory =>
-    <Provider store={store}>
-      {getStory()}
-    </Provider>,
-  )
+  })
   .add(`is win with two mines`, () => {
     const cards = faker({
       isRevealed: true,
