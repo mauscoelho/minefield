@@ -880,7 +880,7 @@ exports[`Storyshots CardContainer fetching false with custom props revealed with
   -ms-flex: 1 0 20%;
   flex: 1 0 20%;
   border-radius: 10px;
-  background-color: #D2D6E6;
+  background-color: #FFFFFF;
 }
 
 .c2::before {
@@ -961,7 +961,7 @@ exports[`Storyshots CardContainer fetching false with custom props revealed with
   -ms-flex: 1 0 20%;
   flex: 1 0 20%;
   border-radius: 10px;
-  background-color: #D2D6E6;
+  background-color: #FFFFFF;
 }
 
 .c2::before {
@@ -1042,7 +1042,7 @@ exports[`Storyshots CardContainer fetching true (clickable) 1`] = `
   -ms-flex: 1 0 20%;
   flex: 1 0 20%;
   border-radius: 10px;
-  background-color: #D2D6E6;
+  background-color: #FFFFFF;
 }
 
 .c2::before {
@@ -1232,7 +1232,7 @@ exports[`Storyshots Game all items not revealed (clickable) 1`] = `
   -ms-flex: 1 0 20%;
   flex: 1 0 20%;
   border-radius: 10px;
-  background-color: #D2D6E6;
+  background-color: #FFFFFF;
 }
 
 .c2::before {
@@ -1276,6 +1276,13 @@ exports[`Storyshots Game all items not revealed (clickable) 1`] = `
   -webkit-justify-content: space-around;
   -ms-flex-pack: space-around;
   justify-content: space-around;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
@@ -1738,6 +1745,13 @@ exports[`Storyshots Game is lost with two mines 1`] = `
   -webkit-justify-content: space-around;
   -ms-flex-pack: space-around;
   justify-content: space-around;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
@@ -2350,6 +2364,13 @@ exports[`Storyshots Game is win with two mines 1`] = `
   -webkit-justify-content: space-around;
   -ms-flex-pack: space-around;
   justify-content: space-around;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;

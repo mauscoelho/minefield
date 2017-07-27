@@ -11,6 +11,8 @@ const Container = styled.div`
   display: -webkit-flex;
   display: flex;
   justify-content: space-around;
+  align-items: flex-start;
+  align-content: center;
   flex: 1;
   flex-wrap: wrap;
 `;
