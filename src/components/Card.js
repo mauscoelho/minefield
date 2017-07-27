@@ -16,7 +16,10 @@ const ResponsiveContainer = styled.div`
   display: flex;
   flex: 1 0 20%;
   border-radius: 10px;
-  background-color: ${Colors.Card.revealedBackground};
+  background-color: ${props =>
+    props.isRevealed
+      ? Colors.Card.revealedBackground
+      : Colors.Card.notRevealedBackground};
 
   &::before {
     content: '';

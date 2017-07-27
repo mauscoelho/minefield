@@ -3,37 +3,78 @@ import styled from 'styled-components';
 import { Colors } from '../styles';
 import GameContainer from '../containers/GameContainer';
 
-const Game = styled.div`
+const Container = styled.div`
   display: flex;
-  flex: 1;
-  background-red: red;
-  box-shadow: 0 8px 40px 0 rgba(15, 43, 97, 0.08);
+  flex: 5;
 `;
 
-const RighContainer = styled.div`
-  display: flex;
-  flex: 2;
-  align-items: center;
-  justify-content: center;
-  border-radius: 0 1em 1em 0;
-  background-color: ${Colors.Game.rightBackground};
-  padding-left: 5em;
-  padding-right: 5em;
+const Wrapper = styled.div`
+  position: relative;
+  width: 100%;
+  margin: 2%;
+  background-color: ${Colors.Body.background};
 `;
 
-const LeftContainer = styled.div`
+const GameSetup = styled.div`
   display: flex;
-  flex: 1;
+  width: 30%;
   background-color: ${Colors.Game.leftBackground};
-  border-radius: 1em 0 0 1em;
+
+  @media (max-width: 780px) {
+    width: 0%;
+  }
+`;
+
+const CardsBody = styled.div`
+  display: flex;
+  width: 70%;
+  background-color: ${Colors.Game.rightBackground};
+  position: relative;
+  align-items: center;
+
+  @media (max-width: 780px) {
+    width: 100%;
+  }
+`;
+
+const WrapperGame = styled.div`
+  left: 0;
+  top: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+`;
+
+const GameContent = styled.div`
+  display: flex;
+  position: relative;
+`;
+
+const GameBackground = styled.div`
+  width: 80%;
+  align-items: center;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  padding: 1%;
+  padding-left: 15%;
+  padding-right: 15%;
 `;
 
 const GameBody = () =>
-  <Game>
-    <LeftContainer />
-    <RighContainer>
-      <GameContainer />
-    </RighContainer>
-  </Game>;
+  <Container>
+    <Wrapper>
+      <WrapperGame>
+        <GameContent>
+          <GameSetup />
+          <CardsBody>
+            <GameBackground>
+              <GameContainer />
+            </GameBackground>
+          </CardsBody>
+        </GameContent>
+      </WrapperGame>
+    </Wrapper>
+  </Container>;
 
 export default GameBody;

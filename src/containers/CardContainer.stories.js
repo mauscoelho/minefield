@@ -28,12 +28,6 @@ storiesOf(`CardContainer`, module)
         card={{ isRevealed: false, isMine: false, halfRevealed: false }}
       />
     </Container>,
-  );
-storiesOf(`CardContainer`, module)
-  .addDecorator(getStory =>
-    <Provider store={store}>
-      {getStory()}
-    </Provider>,
   )
   .add(`fetching false with custom props revealed with a diamond`, () =>
     <Container>
@@ -45,12 +39,6 @@ storiesOf(`CardContainer`, module)
         }}
       />
     </Container>,
-  );
-storiesOf(`CardContainer`, module)
-  .addDecorator(getStory =>
-    <Provider store={store}>
-      {getStory()}
-    </Provider>,
   )
   .add(`fetching false with custom props revealed with a mine`, () =>
     <Container>
