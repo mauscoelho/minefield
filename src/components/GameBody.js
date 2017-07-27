@@ -59,6 +59,11 @@ const GameBackground = styled.div`
   padding: 1%;
   padding-left: 15%;
   padding-right: 15%;
+
+  @media (max-width: 780px) {
+    padding-left: 1%;
+    padding-right: 1%;
+  }
 `;
 
 const GameBody = () =>
