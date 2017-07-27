@@ -16,6 +16,7 @@ const Wrapper = styled.div`
 `;
 
 const GameSetup = styled.div`
+  border-radius: 1em 0 0 1em;
   display: flex;
   width: 30%;
   background-color: ${Colors.Game.leftBackground};
@@ -26,6 +27,7 @@ const GameSetup = styled.div`
 `;
 
 const CardsBody = styled.div`
+  border-radius: 0 1em 1em 0;
   display: flex;
   width: 70%;
   background-color: ${Colors.Game.rightBackground};
