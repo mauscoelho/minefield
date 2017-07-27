@@ -5,13 +5,14 @@ import GameContainer from '../containers/GameContainer';
 
 const Game = styled.div`
   display: flex;
-  width: 100%;
+  flex: 1;
+  background-red: red;
   box-shadow: 0 8px 40px 0 rgba(15, 43, 97, 0.08);
 `;
 
 const RighContainer = styled.div`
   display: flex;
-  flex: 1;
+  flex: 2;
   align-items: center;
   justify-content: center;
   border-radius: 0 1em 1em 0;
@@ -22,7 +23,7 @@ const RighContainer = styled.div`
 
 const LeftContainer = styled.div`
   display: flex;
-  width: 31%;
+  flex: 1;
   background-color: ${Colors.Game.leftBackground};
   border-radius: 1em 0 0 1em;
 `;
