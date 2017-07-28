@@ -5,6 +5,7 @@ import diamont from '../images/diamond.png';
 import mine from '../images/mine.png';
 import { Colors, revealAnimation, hideAnimation } from '../styles';
 import BlinkAnimation from './BlinkAnimation';
+import BurstAnimation from './BurstAnimation';
 
 const Container = styled.div`
   display: flex;
@@ -55,7 +56,7 @@ const BlinkAutoHide = styled.div`
   float: left;
   position: absolute;
   z-index: 1;
-  animation: ${hideAnimation} 0s ease-in 1s forwards;
+  // animation: ${hideAnimation} 0s ease-in 1s forwards;
 `;
 
 const Card = ({ isRevealed, isMine, halfRevealed, onClick }) =>
@@ -67,7 +68,8 @@ const Card = ({ isRevealed, isMine, halfRevealed, onClick }) =>
         {isRevealed &&
           !halfRevealed &&
           <BlinkAutoHide>
-            <BlinkAnimation />
+            {isMine && <BurstAnimation />}
+            {!isMine && <BlinkAnimation />}
           </BlinkAutoHide>}
       </AnimationContainer>
     </ResponsiveContainer>
