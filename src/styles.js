@@ -40,6 +40,7 @@ to {
 `;
 
 export const revealAnimation = keyframes`
-from { transform: scale(0.50); }
-to { transform: scale(1); }
+0% { transform: scale(0.60); }
+50% { transform: scale(1.20); }
+100% { transform: scale(1); }
 `;
