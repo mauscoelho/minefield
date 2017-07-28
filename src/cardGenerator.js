@@ -11,13 +11,13 @@ const faker = ({ isRevealed, isMine, halfRevealed }) => {
   return fakes;
 };
 
-const generateData = ({ isMine }) => {
+const generateData = () => {
   const fakes = [];
   for (let i = 0; i < 25; i += 1) {
     fakes.push({
       id: i,
       isRevealed: false,
-      isMine,
+      isMine: Math.random() >= 0.5,
       halfRevealed: false,
     });
   }
