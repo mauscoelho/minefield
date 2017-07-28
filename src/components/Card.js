@@ -5,6 +5,7 @@ import diamont from '../images/diamond.png';
 import mine from '../images/mine.png';
 import { Colors, revealAnimation, hideAnimation } from '../styles';
 import BlinkAnimation from './BlinkAnimation';
+import BurstAnimation from './BurstAnimation';
 
 const Container = styled.div`
   display: flex;
@@ -58,16 +59,17 @@ const BlinkAutoHide = styled.div`
   animation: ${hideAnimation} 0s ease-in 1s forwards;
 `;
 
-const Card = ({ isRevealed, isMine, halfRevealed, onClick }) =>
+const Card = ({ isRevealed, isMine, halfRevealed, handlerClick }) =>
   <Container>
-    <ResponsiveContainer isRevealed={isRevealed} onClick={onClick}>
+    <ResponsiveContainer isRevealed={isRevealed} onClick={handlerClick}>
       <AnimationContainer>
         {isRevealed &&
           <Icon src={isMine ? mine : diamont} halfRevealed={halfRevealed} />}
         {isRevealed &&
           !halfRevealed &&
           <BlinkAutoHide>
-            <BlinkAnimation />
+            {isMine && <BurstAnimation />}
+            {!isMine && <BlinkAnimation />}
           </BlinkAutoHide>}
       </AnimationContainer>
     </ResponsiveContainer>
@@ -77,7 +79,7 @@ Card.propTypes = {
   isRevealed: propTypes.bool.isRequired,
   isMine: propTypes.bool.isRequired,
   halfRevealed: propTypes.bool.isRequired,
-  onClick: propTypes.func.isRequired,
+  handlerClick: propTypes.func.isRequired,
 };
 
 Card.defaultProps = {

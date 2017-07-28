@@ -47,6 +47,53 @@ exports[`Storyshots BlinkAnimation default 1`] = `
 </div>
 `;
 
+exports[`Storyshots BurstAnimation default 1`] = `
+.c0 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c0:before {
+  content: "";
+  display: block;
+  padding-top: 90%;
+}
+
+.c1 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: url(burst.png);
+  background-size: 7100% 180%;
+  -webkit-animation: cMWegV 1s steps(61);
+  animation: cMWegV 1s steps(61);
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  />
+</div>
+`;
+
 exports[`Storyshots Card is loss and half revealed with diamond 1`] = `
 .c1 {
   display: -webkit-box;
@@ -669,10 +716,10 @@ exports[`Storyshots Card revealed with mine 1`] = `
   right: 0;
   top: 0;
   bottom: 0;
-  background: url(blink.png);
-  background-size: 2400% 118%;
-  -webkit-animation: cMWegV 1s steps(22);
-  animation: cMWegV 1s steps(22);
+  background: url(burst.png);
+  background-size: 7100% 180%;
+  -webkit-animation: cMWegV 1s steps(61);
+  animation: cMWegV 1s steps(61);
 }
 
 .c1 {
@@ -854,249 +901,6 @@ exports[`Storyshots Card revealed with mine 1`] = `
           </div>
         </div>
       </div>
-    </div>
-  </div>
-</div>
-`;
-
-exports[`Storyshots CardContainer fetching false with custom props revealed with a diamond 1`] = `
-.c1 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex: 1 0 20%;
-  -ms-flex: 1 0 20%;
-  flex: 1 0 20%;
-}
-
-.c2 {
-  margin: 5px;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex: 1 0 20%;
-  -ms-flex: 1 0 20%;
-  flex: 1 0 20%;
-  border-radius: 10px;
-  background-color: #FFFFFF;
-}
-
-.c2::before {
-  content: '';
-  float: left;
-  padding-top: 100%;
-}
-
-.c3 {
-  position: relative;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  height: 100%;
-  width: 100%;
-}
-
-.c0 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
-  width: 130px;
-  height: 130px;
-}
-
-<div
-  className="c0"
->
-  <div
-    className="c1"
-  >
-    <div
-      className="c2"
-      onClick={[Function]}
-    >
-      <div
-        className="c3"
-      />
-    </div>
-  </div>
-</div>
-`;
-
-exports[`Storyshots CardContainer fetching false with custom props revealed with a mine 1`] = `
-.c1 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex: 1 0 20%;
-  -ms-flex: 1 0 20%;
-  flex: 1 0 20%;
-}
-
-.c2 {
-  margin: 5px;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex: 1 0 20%;
-  -ms-flex: 1 0 20%;
-  flex: 1 0 20%;
-  border-radius: 10px;
-  background-color: #FFFFFF;
-}
-
-.c2::before {
-  content: '';
-  float: left;
-  padding-top: 100%;
-}
-
-.c3 {
-  position: relative;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  height: 100%;
-  width: 100%;
-}
-
-.c0 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
-  width: 130px;
-  height: 130px;
-}
-
-<div
-  className="c0"
->
-  <div
-    className="c1"
-  >
-    <div
-      className="c2"
-      onClick={[Function]}
-    >
-      <div
-        className="c3"
-      />
-    </div>
-  </div>
-</div>
-`;
-
-exports[`Storyshots CardContainer fetching true (clickable) 1`] = `
-.c1 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex: 1 0 20%;
-  -ms-flex: 1 0 20%;
-  flex: 1 0 20%;
-}
-
-.c2 {
-  margin: 5px;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex: 1 0 20%;
-  -ms-flex: 1 0 20%;
-  flex: 1 0 20%;
-  border-radius: 10px;
-  background-color: #FFFFFF;
-}
-
-.c2::before {
-  content: '';
-  float: left;
-  padding-top: 100%;
-}
-
-.c3 {
-  position: relative;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  height: 100%;
-  width: 100%;
-}
-
-.c0 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
-  width: 130px;
-  height: 130px;
-}
-
-<div
-  className="c0"
->
-  <div
-    className="c1"
-  >
-    <div
-      className="c2"
-      onClick={[Function]}
-    >
-      <div
-        className="c3"
-      />
     </div>
   </div>
 </div>
@@ -1629,10 +1433,10 @@ exports[`Storyshots Game is lost with two mines 1`] = `
   right: 0;
   top: 0;
   bottom: 0;
-  background: url(blink.png);
-  background-size: 2400% 118%;
-  -webkit-animation: cMWegV 1s steps(22);
-  animation: cMWegV 1s steps(22);
+  background: url(burst.png);
+  background-size: 7100% 180%;
+  -webkit-animation: cMWegV 1s steps(61);
+  animation: cMWegV 1s steps(61);
 }
 
 .c2 {

@@ -21,37 +21,37 @@ storiesOf(`Card`, module)
   .add(`revealed with diamond`, () =>
     <Container>
       <Card
-        onClick={action(`card clicked`)}
+        handlerClick={action(`card clicked`)}
         isRevealed
         isMine={false}
         halfRevealed={false}
       />
       <Card
-        onClick={action(`card clicked`)}
+        handlerClick={action(`card clicked`)}
         isRevealed
         isMine={false}
         halfRevealed={false}
       />
       <Card
-        onClick={action(`card clicked`)}
+        handlerClick={action(`card clicked`)}
         isRevealed
         isMine={false}
         halfRevealed={false}
       />
       <Card
-        onClick={action(`card clicked`)}
+        handlerClick={action(`card clicked`)}
         isRevealed
         isMine={false}
         halfRevealed={false}
       />
       <Card
-        onClick={action(`card clicked`)}
+        handlerClick={action(`card clicked`)}
         isRevealed
         isMine={false}
         halfRevealed={false}
       />
       <Card
-        onClick={action(`card clicked`)}
+        handlerClick={action(`card clicked`)}
         isRevealed
         isMine={false}
         halfRevealed={false}
@@ -61,19 +61,19 @@ storiesOf(`Card`, module)
   .add(`revealed with mine`, () =>
     <Container>
       <Card
-        onClick={action(`card clicked`)}
+        handlerClick={action(`card clicked`)}
         isRevealed
         isMine
         halfRevealed={false}
       />
       <Card
-        onClick={action(`card clicked`)}
+        handlerClick={action(`card clicked`)}
         isRevealed
         isMine
         halfRevealed={false}
       />
       <Card
-        onClick={action(`card clicked`)}
+        handlerClick={action(`card clicked`)}
         isRevealed
         isMine
         halfRevealed={false}
@@ -83,19 +83,19 @@ storiesOf(`Card`, module)
   .add(`is loss and half revealed with diamond`, () =>
     <Container>
       <Card
-        onClick={action(`card clicked`)}
+        handlerClick={action(`card clicked`)}
         isRevealed
         isMine={false}
         halfRevealed
       />
       <Card
-        onClick={action(`card clicked`)}
+        handlerClick={action(`card clicked`)}
         isRevealed
         isMine={false}
         halfRevealed
       />
       <Card
-        onClick={action(`card clicked`)}
+        handlerClick={action(`card clicked`)}
         isRevealed
         isMine={false}
         halfRevealed
@@ -104,8 +104,23 @@ storiesOf(`Card`, module)
   )
   .add(`is loss and half revealed with mine`, () =>
     <Container>
-      <Card onClick={action(`card clicked`)} isRevealed isMine halfRevealed />
-      <Card onClick={action(`card clicked`)} isRevealed isMine halfRevealed />
-      <Card onClick={action(`card clicked`)} isRevealed isMine halfRevealed />
+      <Card
+        handlerClick={action(`card clicked`)}
+        isRevealed
+        isMine
+        halfRevealed
+      />
+      <Card
+        handlerClick={action(`card clicked`)}
+        isRevealed
+        isMine
+        halfRevealed
+      />
+      <Card
+        handlerClick={action(`card clicked`)}
+        isRevealed
+        isMine
+        halfRevealed
+      />
     </Container>,
   );

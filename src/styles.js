@@ -39,10 +39,6 @@ to {
   }
 `;
 
-export const burstAnimation = keyframes`
-100% { background-position: -23960px; }
-`;
-
 export const revealAnimation = keyframes`
 from { transform: scale(0.50); }
 to { transform: scale(1); }

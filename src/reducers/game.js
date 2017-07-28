@@ -1,20 +1,35 @@
 import Immutable from 'immutable';
-import faker from '../faker';
-import { CARD_REVEAL } from '../constants';
+import { generateData } from '../cardGenerator';
+import { CARD_REVEAL, CARD_REVEAL_MULTIPLE } from '../constants';
 
-const cards = faker({ isRevealed: false, isMine: false, halfRevealed: false });
+const initialCards = generateData();
 
 const initialState = Immutable.fromJS({
-  cards,
+  cards: initialCards,
 });
+
+const revealOne = (state, action) =>
+  state.updateIn(
+    [`cards`, action.payload.id, `isRevealed`],
+    isRevealed => true,
+  );
+
+const revealMultiple = (state, action) =>
+  state.update(`cards`, cards =>
+    cards.map(
+      card =>
+        card.get(`isRevealed`) === false
+          ? card.set(`halfRevealed`, true).set(`isRevealed`, true)
+          : card,
+    ),
+  );
 
 const reducer = (state = initialState, action) => {
   switch (action.type) {
     case CARD_REVEAL:
-      return state.updateIn(
-        [`cards`, action.payload.id, `isRevealed`],
-        isRevealed => true,
-      );
+      return revealOne(state, action);
+    case CARD_REVEAL_MULTIPLE:
+      return action.payload.isMine ? revealMultiple(state, action) : state;
     default:
       return state;
   }
