@@ -33,7 +33,7 @@ const Icon = styled.span`
   width: ${props => (props.halfRevealed ? `60%` : `80%`)};
   height: ${props => (props.halfRevealed ? `50%` : `70%`)};
   opacity: ${props => (props.halfRevealed ? `0.6` : `1`)};
-  animation: ${revealAnimation} 2s;
+  animation: ${revealAnimation} 1s;
   background-image: url(${props => props.src});
   background-repeat: no-repeat;
   background-position: center;
