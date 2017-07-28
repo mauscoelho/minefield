@@ -56,12 +56,12 @@ const BlinkAutoHide = styled.div`
   float: left;
   position: absolute;
   z-index: 1;
-  // animation: ${hideAnimation} 0s ease-in 1s forwards;
+  animation: ${hideAnimation} 0s ease-in 1s forwards;
 `;
 
-const Card = ({ isRevealed, isMine, halfRevealed, onClick }) =>
+const Card = ({ isRevealed, isMine, halfRevealed, handlerClick }) =>
   <Container>
-    <ResponsiveContainer isRevealed={isRevealed} onClick={onClick}>
+    <ResponsiveContainer isRevealed={isRevealed} onClick={handlerClick}>
       <AnimationContainer>
         {isRevealed &&
           <Icon src={isMine ? mine : diamont} halfRevealed={halfRevealed} />}
@@ -79,7 +79,7 @@ Card.propTypes = {
   isRevealed: propTypes.bool.isRequired,
   isMine: propTypes.bool.isRequired,
   halfRevealed: propTypes.bool.isRequired,
-  onClick: propTypes.func.isRequired,
+  handlerClick: propTypes.func.isRequired,
 };
 
 Card.defaultProps = {

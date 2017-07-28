@@ -5,7 +5,7 @@ import styled from 'styled-components';
 import { Provider } from 'react-redux';
 import configureStore from 'redux-mock-store';
 import Game from './Game';
-import faker from '../faker';
+import { faker } from '../cardGenerator';
 
 const mockStore = configureStore();
 const store = mockStore({});

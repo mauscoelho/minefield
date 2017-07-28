@@ -14,7 +14,7 @@ import { cardClickAction } from '../actions';
 const mapStateToProps = state => ({});
 
 const mapDispatchToProps = dispatch => ({
-  revealHandler: args => {
+  reveal: args => {
     dispatch(cardClickAction(args));
   },
 });
@@ -25,10 +25,16 @@ const componentWillReceiveProps = ({ isRevealed, setFetching, isFetching }) => {
   }
 };
 
-const onClickCard = ({ setFetching, isRevealed, id, revealHandler }) => () => {
+const handlerClick = ({
+  setFetching,
+  isRevealed,
+  id,
+  isMine,
+  reveal,
+}) => () => {
   if (!isRevealed) {
     setFetching(true);
-    revealHandler({ id });
+    reveal({ id, isMine });
   }
 };
 
@@ -36,7 +42,7 @@ const enhance = compose(
   connect(mapStateToProps, mapDispatchToProps),
   withState(`isFetching`, `setFetching`, false),
   withHandlers({
-    onClick: onClickCard,
+    handlerClick,
   }),
   lifecycle({
     componentWillReceiveProps,

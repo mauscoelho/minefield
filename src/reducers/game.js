@@ -1,8 +1,10 @@
 import Immutable from 'immutable';
-import faker from '../faker';
+import { generateData } from '../cardGenerator';
 import { CARD_REVEAL } from '../constants';
 
-const cards = faker({ isRevealed: false, isMine: false, halfRevealed: false });
+const cards = generateData({
+  isMine: true,
+});
 
 const initialState = Immutable.fromJS({
   cards,
